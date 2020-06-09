@@ -1,0 +1,31 @@
+<svg id="Component_20_1" data-name="Component 20 – 1" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #333;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_19" data-name="Rectangle 19" class="cls-1">
+    <rect class="cls-2" width="29" height="29" rx="7"/>
+    <rect class="cls-3" x="1.5" y="1.5" width="26" height="26" rx="5.5"/>
+  </g>
+  <g id="Ellipse_115" data-name="Ellipse 115" class="cls-1" transform="translate(8 8)">
+    <circle class="cls-2" cx="7" cy="7" r="7"/>
+    <circle class="cls-3" cx="7" cy="7" r="5.5"/>
+  </g>
+  <g id="Ellipse_116" data-name="Ellipse 116" class="cls-1" transform="translate(20 6)">
+    <circle class="cls-2" cx="1.5" cy="1.5" r="1.5"/>
+    <circle class="cls-3" cx="1.5" cy="1.5"/>
+  </g>
+</svg>

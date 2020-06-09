@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="1000" viewBox="0 0 1366 1000">
+  <defs>
+    <clipPath id="clip-Theme-1366-Element-1">
+      <rect width="1366" height="1000"/>
+    </clipPath>
+  </defs>
+  <g id="Theme-1366-Element-1" clip-path="url(#clip-Theme-1366-Element-1)">
+    <rect width="1366" height="1000" fill="rgba(255,255,255,0)"/>
+    <path id="Path_1" data-name="Path 1" d="M1364.541,1233.5H-5.686L-129.8,233.522s277.717,36.545,520.722,34.515c249.608-10.151,461.92-35.351,608.833-34.515,256.212,5.076,339.966,40.069,394.114,22.812Z" transform="translate(6 -223.4)" fill="#223856"/>
+  </g>
+</svg>

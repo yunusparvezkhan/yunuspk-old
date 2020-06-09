@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="182.317" height="64.046" viewBox="0 0 182.317 64.046">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fb3838;
+      }
+
+      .cls-2 {
+        font-size: 40px;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 38px;
+        font-family: ArialMT, Arial;
+        letter-spacing: -0.05em;
+      }
+    </style>
+  </defs>
+  <g id="Component_19_1" data-name="Component 19 – 1" transform="translate(1)">
+    <path id="Path_30" data-name="Path 30" class="cls-1" d="M874.405,3540.641c-7.322,7.406-6.551,46.6,0,53.541s89.872,6.944,96.055,0,6.547-46.675-.753-53.474S881.727,3533.235,874.405,3540.641Z" transform="translate(-793.824 -3535.344)"/>
+    <text id="You" class="cls-2" transform="matrix(1, -0.017, 0.017, 1, 0.628, 47.939)"><tspan x="0" y="0">You</tspan></text>
+    <text id="Tuber" class="cls-3" transform="matrix(1, -0.017, 0.017, 1, 83.613, 46.197)"><tspan x="0" y="0">Tuber</tspan></text>
+  </g>
+</svg>

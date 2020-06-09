@@ -1,0 +1,36 @@
+
+body{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+    background: #100142;
+}
+::-webkit-scrollbar:hover {
+    width: 20px;
+}
+::-webkit-scrollbar-thumb:window-inactive:hover{
+      width: 20px;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to top, #FC8E21, #F33C0D);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar:window-inactive {
+    width: 12px;
+    background: #414141;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: linear-gradient(to top, #FF6F6F, #FF9A8E);
+}

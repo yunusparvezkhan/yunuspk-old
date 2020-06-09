@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1250" viewBox="0 0 1920 1250">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Theme-1920-Element-2);
+      }
+
+      .cls-2 {
+        fill: #3376b8;
+      }
+
+      .cls-3 {
+        fill: rgba(255,255,255,0);
+      }
+    </style>
+    <clipPath id="clip-Theme-1920-Element-2">
+      <rect width="1920" height="1250"/>
+    </clipPath>
+  </defs>
+  <g id="Theme-1920-Element-2" class="cls-1">
+    <rect class="cls-3" width="1920" height="1250"/>
+    <path id="Path_198" data-name="Path 198" class="cls-2" d="M-19.848-62.405S426.239-237.32,935.553-230.3s964.01,169.06,964.01,169.06l.588,1080.126L-19.848,762Z" transform="translate(19.848 230.902)"/>
+  </g>
+</svg>

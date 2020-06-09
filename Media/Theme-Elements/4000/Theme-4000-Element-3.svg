@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4000" height="1241" viewBox="0 0 4000 1241">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Theme-4000-Element-3);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: rgba(252,252,252,0);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6453d8"/>
+      <stop offset="1" stop-color="#c95aff"/>
+    </linearGradient>
+    <clipPath id="clip-Theme-4000-Element-3">
+      <rect width="4000" height="1241"/>
+    </clipPath>
+  </defs>
+  <g id="Theme-4000-Element-3" class="cls-1">
+    <rect class="cls-3" width="4000" height="1241"/>
+    <path id="Path_20" data-name="Path 20" class="cls-2" d="M0,0C129.958,8.239,158.49,31.4,339.562,31.4S724.29,0,724.29,0s337.869-53.858,578.041-56.978S1920,0,1920,0s187.458,50.646,411.634,54.506S3089.8-56.978,3089.8-56.978l-26.4,1058.251S2582.3,1095.446,2437.25,1091.8s-127.183-70.977-256.5-57.581S2045.7,1157.974,1920,1145.385s-198.688-125.8-395.686-111.165-419.832,128.705-590.995,134.562-235.752-111.163-348.784-96.537-54.9,99.463-277.735,73.14S-7.576,968.775-214.454,940.922s-262.009,104.8-456.41,131.322-486.586,0-486.586,0l-82.983-957.386S-1010.744,9.617-844.375,0s272.118,49.439,441.322,54.506S-129.958-8.239,0,0Z" transform="translate(1075 57.184)"/>
+  </g>
+</svg>

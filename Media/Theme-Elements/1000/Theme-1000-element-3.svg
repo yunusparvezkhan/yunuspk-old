@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1367" height="1667" viewBox="0 0 1367 1667">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Theme-1000-element-3);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: rgba(255,255,255,0);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6453d8"/>
+      <stop offset="1" stop-color="#c95aff"/>
+    </linearGradient>
+    <clipPath id="clip-Theme-1000-element-3">
+      <rect width="1367" height="1667"/>
+    </clipPath>
+  </defs>
+  <g id="Theme-1000-element-3" class="cls-1">
+    <rect class="cls-3" width="1367" height="1667"/>
+    <path id="Path_20" data-name="Path 20" class="cls-2" d="M0,0H1367V1598.535s-141.462-175.567-281.72-155.145-298.912,179.625-420.776,187.8-167.85-155.144-248.327-134.73-39.088,138.814-197.741,102.077S0,1443.39,0,1443.39Z" transform="translate(0 -0.281)"/>
+  </g>
+</svg>
