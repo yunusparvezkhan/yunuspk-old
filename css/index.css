@@ -948,6 +948,11 @@ body{
                         position: absolute;
                         box-shadow: -10px 11px 18px #0000003F;
                         border-radius: 15px;
+                        transition: 0.3s;
+                        cursor: pointer;
+                      }
+                      .service-cards:hover{
+                        transform: translate(0,-5px);
                       }
                       .service-card-icon{
                         display: block;
@@ -1077,70 +1082,181 @@ body{
           transform: translate(-50%);
         }
 
-              .projects-card-row{
+
+            #sec-9-subsec-1{
+              display: block;
+              width: 100%;
+              height: auto;
+              position: absolute;
+              top: 250px;
+              left: 50%;
+              transform: translate(-50%);
+            }
+
+                      .projects-card-row{
+                          display: block;
+                          width: 100%;
+                          height: 360px;
+                          background: transparent;
+                          position: relative;
+                      }
+                      .projects-card{
+                        display: block;
+                        width: 350px;
+                        height: 360px;
+                        background-color: #152541;
+                        position: absolute;
+                        top: 0;
+                        border-radius: 7px;
+                        transition: 0.3s;
+                        transform: translate(-50%);
+                        cursor: default;
+                      }
+                      .projects-card:hover{
+                        transform: translate(-50%,-5px);
+                      }
+                      .project-card-1{
+                        left: 230px;
+                      }
+                      .project-card-2{
+                        left: 50%;
+                      }
+                      .project-card-3{
+                        left: 970px;
+                      }
+                      .projects-card-heading{
+                        font-size: 22px;
+                        font-family: Arial;
+                        font-weight: bold;
+                        color: #E5F2FF;
+                        position: relative;
+                        margin-left: 30px;
+                        margin-right: 30px;
+                        line-height: 30px;
+                      }
+                      .projects-card-description{
+                        font-size: 15px;
+                        font-family: Arial;
+                        font-weight: 400;
+                        color: #C5E1FF;
+                        position: relative;
+                        margin-left: 30px;
+                        margin-right: 30px;
+                        line-height: 22px;
+                        letter-spacing: 0.5px;
+                      }
+                        #projects-card-row-1{
+                          top: 0px;
+                        }
+
+                        #projects-card-1-heading{
+                          top: 100px;
+                        }
+                        #projects-card-1-description{
+                          top: 110px;
+                        }
+
+
+
+
+                        #projects-card-row-2{
+                          top: 20px;
+                        }
+
+                        #projects-more-btn{
+                          display: block;
+                          width: 180px;
+                          height: 60px;
+                          background: transparent;
+                          border:2px solid #00FFA0;
+                          border-radius: 10px;
+                          position: relative;
+                          top: 80px;
+                          left: 50%;
+                          transform: translate(-50%);
+                          cursor: pointer;
+                          transition: 0.5s;
+                          outline:none;
+                          color: #00FFA0;
+                          font-size: 18px;
+                          font-family: Segoe UI;
+                          font-weight: 400;
+                        }
+                        #projects-more-btn:hover{
+                          background: #00FFA020;
+                          letter-spacing: 2px;
+                        }
+
+
+
+
+
+
+                #sec-9-subsec-2{
                   display: block;
                   width: 100%;
-                  height: 350px;
-                  background: transparent;
-                  position: relative;
-              }
-              .projects-card{
-                display: block;
-                width: 350px;
-                height: 350px;
-                background-color: #152541;
-                position: absolute;
-                top: 50%;
-                border-radius: 7px;
-                transition: 0.3s;
-                transform: translate(-50%,-50%);
-              }
-              .projects-card:hover{
-                transform: translate(-50%,-52%);
-              }
-              .project-card-1{
-                left: 18%;
-              }
-              .project-card-2{
-                left: 50%;
-              }
-              .project-card-3{
-                left: 82%;
-              }
-              .projects-card-heading{
-                font-size: 22px;
-                font-family: Arial;
-                font-weight: bold;
-                color: #E5F2FF;
-                position: relative;
-                margin-left: 30px;
-                margin-right: 30px;
-              }
-              .projects-card-description{
-                font-size: 15px;
-                font-family: Arial;
-                font-weight: 400;
-                color: #C5E1FF;
-                position: relative;
-                margin-left: 30px;
-                margin-right: 30px;
-                line-height: 22px;
-                letter-spacing: 0.5px;
-              }
-                #projects-card-row-1{
-                  top: 250px;
+                  height: 700px;
+                  position: absolute;
+                  top: 1400px;
+                  left: 50%;
+                  transform: translate(-50%);
+                  background-color: transparent;
                 }
 
-                #projects-card-1-heading{
-                  top: 100px;
-                }
-                #projects-card-1-description{
-                  top: 110px;
-                }
+                        #sec-9-subsec-2-subheading{
+                          font-size: 18px;
+                          font-family: Segoe UI;
+                          font-weight: 400;
+                          color: #77FFD1;
+                          position: relative;
+                          top: 0;
+                          width: 100%;
+                          text-align: center;
+                        }
+                        #sec-9-subsec-2-heading{
+                          font-size: 55px;
+                          font-family: Microsoft YaHei UI;
+                          font-weight: 600;
+                          color: #fff;
+                          position: relative;
+                          top:10px;
+                          width: 100%;
+                          text-align: center;
+                        }
+                        #sec-9-subsec-2-text{
+                          font-size: 20px;
+                          font-family: Segoe UI;
+                          font-weight: lighter;
+                          color: #fff;
+                          width: 850px;
+                          text-align: center;
+                          position: relative;
+                          top: 50px;
+                          left: 50%;
+                          transform: translate(-50%);
+                          line-height: 35px;
+                        }
 
-
-
-
-                #projects-card-row-2{
-                  top: 270px;
-                }
+                        #get-in-touch-msg-btn{
+                          display: block;
+                          width: 180px;
+                          height: 60px;
+                          background: transparent;
+                          color: #00FFA0;
+                          border: 2px solid #00FFA0;
+                          border-radius: 10px;
+                          font-size: 18px;
+                          font-family: Segoe UI;
+                          font-weight: 400;
+                          position: relative;
+                          top: 150px;
+                          left: 50%;
+                          transform: translate(-50%);
+                          transition: 0.5s;
+                          cursor: pointer;
+                          outline:none;
+                        }
+                        #get-in-touch-msg-btn:hover{
+                          background: #00FFA020;
+                          letter-spacing: 2px;
+                        }
