@@ -5,6 +5,7 @@
 body{
   background:#ffffff;
   scroll-behavior: smooth;
+  height:9590px;
 }
 
 
@@ -1260,3 +1261,80 @@ body{
                           background: #00FFA020;
                           letter-spacing: 2px;
                         }
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+    footer{
+      display: block;
+      width: 100%;
+      height: 200px;
+      background: #22273E;
+      color: #fff;
+      position: absolute;
+      left: 0;
+      top: 9390px;
+    }
+
+
+      #footer-btns-box{
+        display: block;
+        width:auto;
+        height: 20px;
+        background: transparent;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+      .footer-btn{
+        display: inline-block;
+        font-size: 11px;
+        font-family: Segoe UI;
+        font-weight: 400;
+        color: #fff;
+        position: relative;
+        top: 0px;
+        margin-left: 5px;
+        margin-right: 4px;
+        transition: 0.3s;
+        cursor: pointer;
+        outline:none;
+      }
+      .footer-btn:hover{
+        color: #00FFA0;
+      }
+      .footer-btns-line{
+        display: inline;
+        width: 20px;
+        border: 1px solid #fff;
+        position: relative;
+        top: 0px;
+        transform: rotate(90deg);
+      }
+      #footer-copyright{
+        font-size: 13px;
+        font-family: Segoe UI Emoji;
+        font-weight: 400;
+        position: absolute;
+        left: 0;
+        bottom: 10px;
+      }
+      #footer-developer{
+        font-size: 13px;
+        font-family: Segoe UI Emoji;
+        font-weight: 400;
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+      }
