@@ -85,9 +85,40 @@
 
     #bg-sec-4{
       top: -700px;
-      height: 1300px;
+      height: 1350px;
     }
 
+    #store-card-box-1{
+      top: 400px;
+      left: 25%;
+    }
+    #store-card-box-2{
+      top: 900px;
+      left: 50%;
+    }
+    #store-card-box-3{
+      top: 400px;
+      left: 75%;
+    }
+
+    #store-btn{
+      bottom: 100px;
+    }
+
+
+
+
+
+
+
+
+
+    /* ////////////    Background Section 5    ///////////////// */
+
+
+    #bg-sec-5{
+      top: -700px;
+    }
 
 
 
