@@ -39,15 +39,56 @@
       left: 550px;
     }
 
-}
 
 
 
 
-/* ////////////    Background Section 2    ///////////////// */
+
+/* ////////////    Background Section 3    ///////////////// */
 
 
 
     #bg-sec-3{
       top: -700px;
     }
+
+    #bg-sec-3-heading{
+      top: 50px;
+    }
+    #underline-1{
+      top: 140px;
+    }
+
+
+    #blogs-card-type-1-1{
+      top: 350px;
+      left: 25%;
+    }
+    #blogs-card-type-1-2{
+      top: 700px;
+      left: 50%;
+    }
+    #blogs-card-type-1-3{
+      top: 350px;
+      left: 75%;
+    }
+
+    #blogs-btn{
+      bottom: 250px;
+    }
+
+
+
+
+    /* ////////////    Background Section 4    ///////////////// */
+
+
+    #bg-sec-4{
+      top: -700px;
+      height: 1300px;
+    }
+
+
+
+
+}
