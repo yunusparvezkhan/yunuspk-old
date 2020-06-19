@@ -1,0 +1,53 @@
+@media (max-width:1200px) {
+
+
+
+    .container{
+      width: 900px;
+      border-left: 2px solid #fff;
+      border-right: 2px solid #fff;
+    }
+
+
+
+    /* ////////////    Background Section 1    ///////////////// */
+    #bg-sec-1-elements{
+      width: 900px;
+      border-left: 2px solid #fff;
+      border-right: 2px solid #fff;
+    }
+
+    #bg-sec-2{
+      background-image: url("../Media/Theme-Elements/1200/Theme-1200-Element-1.svg");
+      height: 800px;
+    }
+
+    #bg-sec-2-img-1{
+      width: 380px;
+      top: 100px;
+      left: 20px;
+    }
+    #bg-sec-2-txt-box{
+      left: 430px;
+      top: 150px;
+      width: 400px;
+    }
+    #about-btn{
+      left: 550px;
+    }
+    #about-btn-shadow{
+      left: 550px;
+    }
+
+}
+
+
+
+
+/* ////////////    Background Section 2    ///////////////// */
+
+
+
+    #bg-sec-3{
+      top: -700px;
+    }
