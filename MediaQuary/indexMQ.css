@@ -168,14 +168,21 @@
 
             #bg-sec-7{
               top: -700px;
+              height: 930px;
             }
             #graphics-designer-portrait{
               width: 600px;
               right: 0;
             }
             #graphics-heading{
-              font-size: 80px;
-              transform: rotateZ(0deg);
+              font-size: 100px;
+              transform: rotateZ(5deg);
+              left: 28px;
+              top: 400px;
+            }
+            #designer-heading{
+              left: 50px;
+              top: 600px;
             }
 
 
