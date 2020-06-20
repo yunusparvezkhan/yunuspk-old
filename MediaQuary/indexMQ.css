@@ -201,7 +201,94 @@
 
           #bg-sec-8{
             top: -700px;
+            height: 1700px;
+            background-image: url("../Media/Theme-Elements/1200/Theme-1200-Element-3.svg");
           }
+
+          #sec-8-profile-box{
+            height: 1500px;
+            top: 50px;
+            left: 50px;
+          }
+
+          #sec-8-content-box{
+            height: 1500px;
+            top: 50px;
+            right: 50px;
+            width: 450px;
+          }
+
+                    #service-cards-1{
+                      top: 150px;
+                      left: 50%;
+                      transform: translate(-50%);
+                    }
+
+                    #service-cards-2{
+                      top: 300px;
+                      left: 50%;
+                      transform: translate(-50%);
+                    }
+
+                    #service-cards-3{
+                      top: 450px;
+                      left: 50%;
+                      transform: translate(-50%);
+                    }
+
+                    #service-cards-4{
+                      top: 600px;
+                      left: 50%;
+                      transform: translate(-50%);
+                    }
+
+                    #service-cards-5{
+                      top: 750px;
+                      left: 50%;
+                      transform: translate(-50%);
+                    }
+
+                    #service-cards-6{
+                      top: 900px;
+                      left: 50%;
+                      transform: translate(-50%);
+                    }
+
+                    #service-cards-7{
+                      top: 1050px;
+                      left: 50%;
+                      transform: translate(-50%);
+                    }
+
+                    #service-cards-8{
+                      top: 1200px;
+                      left: 50%;
+                      transform: translate(-50%);
+                    }
+
+                    .service-cards{
+                      transition: 0.7s;
+                    }
+                    .service-cards:hover{
+                      background: #FF7777;
+                    }
+
+
+
+
+
+
+
+
+
+
+          /* ////////////    Background Section 9    ///////////////// */
+
+
+          #bg-sec-9{
+            top: -700px;
+          }
+
 
 
 }
