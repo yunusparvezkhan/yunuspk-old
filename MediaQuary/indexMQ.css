@@ -211,6 +211,18 @@
             left: 50px;
           }
 
+                    #sec-8-social-media-box-1{
+                      top: 350px;
+                    }
+                    #sec-8-social-media-box-2{
+                      top: 650px;
+                    }
+                    #sec-8-social-media-box-3{
+                      top: 950px;
+                    }
+
+
+
           #sec-8-content-box{
             height: 1500px;
             top: 50px;
