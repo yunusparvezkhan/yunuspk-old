@@ -121,5 +121,80 @@
     }
 
 
+      #YouTuber-icon{
+        right: 120px;
+        width: 150px;
+      }
+
+
+
+
+
+
+
+
+
+      /* ////////////    Background Section 6    ///////////////// */
+
+
+      #bg-sec-6{
+        top: -700px;
+      }
+      #WebDev-portrait{
+        width: 300px;
+        top: -600px;
+      }
+      #WebDev-box{
+        width: 500px;
+        height: 370px;
+        top: -300px;
+      }
+      #WebDev-txt{
+        width: 85%;
+      }
+
+      #WebDev-more-btn{
+        bottom: 20px;
+        right: 50px;
+      }
+
+
+
+
+
+
+            /* ////////////    Background Section 7    ///////////////// */
+
+
+            #bg-sec-7{
+              top: -700px;
+            }
+            #graphics-designer-portrait{
+              width: 600px;
+              right: 0;
+            }
+            #graphics-heading{
+              font-size: 80px;
+              transform: rotateZ(0deg);
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+          /* ////////////    Background Section 8    ///////////////// */
+
+
+          #bg-sec-8{
+            top: -700px;
+          }
+
 
 }

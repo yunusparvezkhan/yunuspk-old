@@ -579,7 +579,7 @@ body{
           }
           #WebDev-txt{
             display: block;
-            width: 660px;
+            width: 90%;
             height: auto;
             position: absolute;
             top: 25px;
@@ -651,7 +651,7 @@ body{
             width: 700px;
             height: auto;
             position: absolute;
-            top: 250px;
+            bottom: 0px;
             right: 50px;
           }
             #graphics-heading{
