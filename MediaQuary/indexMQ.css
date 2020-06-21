@@ -327,8 +327,75 @@
 
           #bg-sec-9{
             top: -700px;
+            height: 2500px;
+          }
+          #projects-card-row-1{
+            top:0;
+          }
+          #projects-card-row-2{
+            display:block;
+            top:28px;
+          }
+          #projects-card-row-3{
+            top:56px;
+          }
+
+          #project-card-1{
+            left: 29%;
+          }
+          #project-card-2{
+            left: 71%;
+          }
+
+          #project-card-3{
+            display: none;
+          }
+          #project-card-3point2{
+            left: 29%;
+          }
+
+          #project-card-4{
+            display: none;
+          }
+          #project-card-4point2{
+            left: 71%;
+          }
+
+          #project-card-5{
+            left: 29%;
+          }
+          #project-card-6{
+            left: 71%;
+          }
+
+          #projects-more-btn{
+            top: 120px;
           }
 
 
+
+  /* ///////////////////////////////////// */
+
+
+          #sec-9-subsec-2{
+            top: 1700px;
+          }
+
+
+
+
+
+
+
+
+
+
+
+        /* ////////////    Background Section 9    ///////////////// */
+
+
+        footer{
+          top: 10366px;
+        }
 
 }
