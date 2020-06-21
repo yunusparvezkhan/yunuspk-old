@@ -827,8 +827,8 @@ body{
                                left: 25%;
                                transform:translate(-50%);
                                cursor: pointer;
-                               transition: 0.3s;
                                outline: none;
+                               transition: 0s;
                              }
                              #sec-8-profile-box-github-logo:hover{
                                fill:#00C88B;
@@ -844,8 +844,8 @@ body{
                                left: 50%;
                                transform:translate(-50%);
                                cursor: pointer;
-                               transition: 0.3s;
                                outline: none;
+                               transition: 0s;
                              }
                              #sec-8-profile-box-yt-logo:hover{
                                fill:#ee3124;
@@ -861,8 +861,8 @@ body{
                                left: 75%;
                                transform:translate(-50%);
                                cursor: pointer;
-                               transition: 0.3s;
                                outline: none;
+                               transition: 0.3s;
                              }
                              #sec-8-profile-box-linkedin-logo:hover{
                                color: #0078C8;
