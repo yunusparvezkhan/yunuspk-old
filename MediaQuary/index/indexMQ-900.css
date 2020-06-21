@@ -46,3 +46,34 @@
       width: 300px;
       top: 130px;
     }
+
+
+
+
+
+    /* ////////////    Background Section 2    ///////////////// */
+
+
+
+
+
+    #bg-sec-2{
+
+    }
+
+    #bg-sec-2-img-1{
+      width: 300px;
+      top: 150px;
+      left: 20px;
+    }
+    #bg-sec-2-txt-box{
+      left: 320px;
+      top: 130px;
+      width: 350px;
+    }
+    #about-btn{
+      left: 450px;
+    }
+    #about-btn-shadow{
+      left: 450px;
+    }
