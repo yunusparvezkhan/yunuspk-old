@@ -72,7 +72,7 @@
   left: 0px;
   transform: translate(-50%,-50%);
   cursor:pointer;
-  transition: 0.3s;
+  transition: 0s;
 }
 #m-nav-notification-icon:hover{
     fill:#EC604A;
@@ -84,7 +84,7 @@
   left: 50%;
   transform: translate(-50%,-50%);
   cursor:pointer;
-  transition: 0.3s;
+  transition: 0s;
 }
 #m-nav-msg-icon:hover{
     stroke:#EC604A;
