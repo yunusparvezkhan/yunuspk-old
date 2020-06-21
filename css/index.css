@@ -881,6 +881,39 @@ body{
                                transform: translate(-50%);
                              }
 
+                             #insta-post-1{
+                               display: block;
+                               width: 130px;
+                               height: auto;
+                               position: absolute;
+                               top: 20px;
+                               left: 20px;
+                             }
+                             #insta-post-2{
+                               display: block;
+                               width: 70px;
+                               height: auto;
+                               position: absolute;
+                               top: 20px;
+                               right: 20px;
+                             }
+                             #insta-post-3{
+                               display: block;
+                               width: 70px;
+                               height: auto;
+                               position: absolute;
+                               bottom: 20px;
+                               left: 20px;
+                             }
+                             #insta-post-4{
+                               display: block;
+                               width: 130px;
+                               height: auto;
+                               position: absolute;
+                               bottom: 20px;
+                               right: 20px;
+                             }
+
 
 
 
