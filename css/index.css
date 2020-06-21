@@ -916,6 +916,41 @@ body{
 
 
 
+                             #twitter-post-1{
+                               display: block;
+                               width: 70px;
+                               height: auto;
+                               position: absolute;
+                               top: 12px;
+                               left: 30px;
+                             }
+                             #twitter-post-2{
+                               display: block;
+                               width: 110px;
+                               height: auto;
+                               position: absolute;
+                               top: 12px;
+                               right: 30px;
+                             }
+                             #twitter-post-3{
+                               display: block;
+                               width: 95px;
+                               height: auto;
+                               position: absolute;
+                               bottom: 12px;
+                               left: 30px;
+                             }
+                             #twitter-post-4{
+                               display: block;
+                               width: 80px;
+                               height: auto;
+                               position: absolute;
+                               bottom: 12px;
+                               right: 30px;
+                             }
+
+
+
 
 
 
