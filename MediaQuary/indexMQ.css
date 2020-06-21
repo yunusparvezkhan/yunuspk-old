@@ -210,17 +210,43 @@
             top: 50px;
             left: 50px;
           }
+          .profile-box-photo-box{
+            display: block;
+          }
 
                     #sec-8-social-media-box-1{
                       top: 350px;
                     }
-                    #sec-8-social-media-box-2{
-                      top: 650px;
-                    }
-                    #sec-8-social-media-box-3{
-                      top: 950px;
+                    #profile-box-photo-box-insta{
+                      top: 355px;
                     }
 
+
+                    #sec-8-social-media-box-2{
+                      top: 370px;
+                    }
+                    #profile-box-photo-box-twitter{
+                      top: 375px;
+                    }
+
+
+                    #sec-8-social-media-box-3{
+                      top: 390px;
+                    }
+                    #profile-box-photo-box-facebook{
+                      top: 395px;
+                    }
+
+
+                        #sec-8-profile-box-github-logo{
+                          bottom: 80px;
+                        }
+                        #sec-8-profile-box-yt-logo{
+                          bottom: 80px;
+                        }
+                        #sec-8-profile-box-linkedin-logo{
+                          bottom: 70px;
+                        }
 
 
           #sec-8-content-box{

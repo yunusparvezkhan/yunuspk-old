@@ -853,11 +853,11 @@ body{
                              #sec-8-profile-box-linkedin-logo{
                                display: block;
                                color:#222;
-                               font-size: 40px;
+                               font-size: 45px;
                                font-family: Segoe UI;
                                font-weight: 800;
                                position: absolute;
-                               bottom: 125px;
+                               bottom: 120px;
                                left: 75%;
                                transform:translate(-50%);
                                cursor: pointer;
@@ -867,6 +867,21 @@ body{
                              #sec-8-profile-box-linkedin-logo:hover{
                                color: #0078C8;
                              }
+
+
+
+                             .profile-box-photo-box{
+                               display: none;
+                               width: 260px;
+                               height: 200px;
+                               background: #E7FFB7;
+                               border:5px solid #2A9BA4;
+                               position: relative;
+                               left: 50%;
+                               transform: translate(-50%);
+                             }
+
+
 
 
 
