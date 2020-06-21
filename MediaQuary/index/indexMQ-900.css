@@ -10,8 +10,38 @@
 
 
     /* ////////////    Background Section 1    ///////////////// */
+    #bg-sec-1{
+      height: 1150px;
+    }
     #bg-sec-1-elements{
       width: 700px;
       border-left: 2px solid #fff;
       border-right: 2px solid #fff;
+    }
+
+
+    #heading-1{
+         font-size: 60px;
+    }
+    #heading-2{
+         font-size: 100px;
+    }
+    #naming-1{
+      font-size: 110px;
+      top: 250px;
+      left: 40%;
+    }
+    #naming-2{
+      font-size: 70px;
+      top: 400px;
+      left: 43%;
+    }
+    #naming-3{
+      font-size: 100px;
+      top: 470px;
+      left: 38%;
+    }
+    #bg-sec-1-img{
+      width: 300px;
+      top: 130px;
     }
