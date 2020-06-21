@@ -1,0 +1,17 @@
+@media (max-width:900px) {
+
+
+
+    .container{
+      width: 700px;
+      border-left: 2px solid #fff;
+    }
+
+
+
+    /* ////////////    Background Section 1    ///////////////// */
+    #bg-sec-1-elements{
+      width: 700px;
+      border-left: 2px solid #fff;
+      border-right: 2px solid #fff;
+    }
