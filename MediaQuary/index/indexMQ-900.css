@@ -77,3 +77,64 @@
     #about-btn-shadow{
       left: 450px;
     }
+
+
+
+    /* ////////////    Background Section 3    ///////////////// */
+
+
+
+        #bg-sec-3{
+
+        }
+
+        #bg-sec-3-heading{
+          top: 10px;
+          font-size: 60px;
+        }
+        #underline-1{
+          top: 80px;
+        }
+
+
+        .blogs-card-type-1-title{
+          top:220px;
+        }
+        .blogs-card-type-1-details{
+          top:255px;
+        }
+
+
+
+        #blogs-card-type-1-1{
+          top: 270px;
+          left: 50%;
+        }
+        #blogs-card-type-1-2{
+          top: 560px;
+          left: 50%;
+        }
+        #blogs-card-type-1-3{
+          top: 850px;
+          left: 50%;
+        }
+        .blogs-card-type-1{
+          width: 350px;
+        }
+
+        .blogs-card-type-1:hover{
+          width: 380px;
+          height: 220px;
+        }
+
+        #blogs-btn{
+          bottom: 170px;
+          width: 150px;
+          height: 40px;
+          font-size: 15px;
+        }
+        #blogs-btn:hover{
+          font-size:20px;
+          width: 160px;
+          height: 45px;
+        }
