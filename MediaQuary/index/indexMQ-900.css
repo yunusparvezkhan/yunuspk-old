@@ -306,4 +306,82 @@
 
 
 
+
+
+      /* ////////////    Background Section 9    ///////////////// */
+
+
+      #bg-sec-9{
+        height: 2500px;
+      }
+
+      #bg-sec-9-heading{
+        font-size: 30px;
+      }
+      #bg-sec-9-subheading{
+        font-size: 15px;
+      }
+
+      .projects-card{
+        width: 330px;
+      }
+      #projects-card-row-1{
+        top:0;
+      }
+      #projects-card-row-2{
+        display:block;
+        top:20px;
+      }
+      #projects-card-row-3{
+        top:40px;
+      }
+
+      #project-card-1{
+        left: 25%;
+      }
+      #project-card-2{
+        left: 75%;
+      }
+
+      #project-card-3point2{
+        left: 25%;
+      }
+
+      #project-card-4point2{
+        left: 75%;
+      }
+
+      #project-card-5{
+        left: 25%;
+      }
+      #project-card-6{
+        left: 75%;
+      }
+
+
+        #projects-more-btn{
+          width: 150px;
+          height: 50px;
+        }
+
+
+            #sec-9-subsec-2-subheading{
+                font-size: 15px;
+            }
+            #sec-9-subsec-2-heading{
+                font-size: 45px;
+            }
+
+            #sec-9-subsec-2-text{
+              font-size: 18px;
+              width: 90%;
+            }
+
+            #get-in-touch-msg-btn{
+              width: 150px;
+              height: 50px;
+            }
+
+
+
     }
