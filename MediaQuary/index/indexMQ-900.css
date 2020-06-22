@@ -282,5 +282,28 @@
 
 
 
+      /* ////////////    Background Section 8    ///////////////// */
+
+
+      #bg-sec-8{
+      }
+
+      #sec-8-profile-box{
+        height: 1500px;
+        top: 50px;
+        left: 5px;
+        width: 280px;
+      }
+
+      #sec-8-content-box{
+        width: 400px;
+        right: 5px;
+      }
+
+
+
+
+
+
 
     }
