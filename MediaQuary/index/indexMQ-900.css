@@ -138,3 +138,36 @@
           width: 160px;
           height: 45px;
         }
+
+
+
+
+
+
+
+
+            /* ////////////    Background Section 4    ///////////////// */
+
+
+            #bg-sec-4{
+            }
+
+            #bg-sec-4-heading-1{
+              font-size:110px;
+            }
+            #bg-sec-4-heading-2{
+              font-size:60px;
+              top: 45px;
+            }
+            .store-card-box{
+              width: 330px;
+              height: 330px;
+            }
+            .store-card-box:hover{
+              width: 350px;
+              height: 340px
+            }
+
+            #store-btn{
+              bottom: 100px;
+            }

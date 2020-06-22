@@ -359,8 +359,8 @@ body{
           color: #515151;
           position: absolute;
           top: 60px;
-          left: 50%;
-          transform: translate(-50%);
+          width: 100%;
+          text-align: center;
         }
         .store-card-box{
           display: block;
