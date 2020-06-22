@@ -254,6 +254,33 @@
 
 
 
+      /* ////////////    Background Section 7    ///////////////// */
+
+
+      #bg-sec-7{
+        height: 830px;
+      }
+      #graphics-designer-portrait{
+        width: 500px;
+      }
+      #graphics-heading{
+        font-size: 70px;
+        left: 15px;
+        top: 450px;
+      }
+      #designer-heading{
+        left: 60px;
+        top: 580px;
+        font-size: 90px;
+      }
+
+
+
+
+
+
+
+
 
 
     }
