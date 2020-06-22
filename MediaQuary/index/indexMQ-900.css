@@ -203,6 +203,57 @@
 
 
 
+      /* ////////////    Background Section 6    ///////////////// */
+
+
+      #bg-sec-6{
+      }
+
+      #WebDev-heading{
+        font-size: 50px;
+        left: 40%;
+        transform: translate(0,0);
+        width: 100%;
+        top: 20px;
+      }
+      #WebDev-underline{
+        top: 70px;
+}
+      #WebDev-portrait{
+        left: 25%;
+      }
+      #WebDev-box{
+        width: 340px;
+        height: 450px;
+        top: -350px;
+        right: 30px;
+      }
+      #WebDev-txt{
+        width: 85%;
+        font-size: 18px;
+      }
+
+      #WebDev-more-btn{
+        bottom: 20px;
+        right: 50px;
+        height: 40px;
+        width: 100px;
+        font-size: 18px;
+        color: #fff;
+        stroke:#fff;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
