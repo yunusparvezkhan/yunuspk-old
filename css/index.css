@@ -468,6 +468,7 @@ body{
     background-image: url("../Media/Backgrounds/YTStudio.png");
     background-size: cover;
     background-position:center;
+    transition: 0.1s;
   }
 
         #YouTuber-icon{
