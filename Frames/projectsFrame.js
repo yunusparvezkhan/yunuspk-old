@@ -1,4 +1,4 @@
-const slider = document.querySelector('.projects-card-row');
+const slider = document.querySelector('.your-main-div');
 let isDown = false;
 let startX;
 let scrollLeft;
@@ -26,3 +26,6 @@ slider.addEventListener('mousemove', (e) => {
   // console.log(walk);
   console.log(slider.scrollLeft);
 });
+
+
+// This javascript page is only to show the codes, it is not actually connected to any page via link //
