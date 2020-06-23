@@ -96,6 +96,39 @@
 
 
 
+  /* ////////////    Background Section 3    ///////////////// */
+
+
+
+      #bg-sec-3{
+
+      }
+
+      #bg-sec-3-heading{
+        top: 10px;
+        font-size: 60px;
+      }
+      #underline-1{
+        top: 80px;
+      }
+
+      #blogs-frame{
+        width: 100%;
+        height: 400px;
+        display: inline-block;
+        position: absolute;
+        top: 50px;
+        background: green;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        cursor: default;
+        border:none;
+      }
+      .blogs-card-type-1{
+        display: none;
+      }
+
 
 
 
