@@ -56,6 +56,48 @@
 
 
 
+    /* ////////////    Background Section 2    ///////////////// */
+
+
+
+
+
+    #bg-sec-2{
+
+    }
+
+    #bg-sec-2-img-1{
+      width: 220px;
+      top: 180px;
+      left: 0px;
+    }
+    #bg-sec-2-txt-box{
+      left: 220px;
+      top: 150px;
+      width: 260px;
+    }
+    #bg-sec-2-heading{
+      font-size: 35px;
+    }
+    #bg-sec-2-txt{
+      font-size: 15px;
+    }
+    #about-btn{
+      left: 50%;
+      transform: translate(-50%);
+    }
+    #about-btn-shadow{
+      left: 50%;
+      transform: translate(-50%);
+    }
+
+
+
+
+
+
+
+
 
 
 
