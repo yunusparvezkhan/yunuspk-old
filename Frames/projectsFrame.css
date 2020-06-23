@@ -16,6 +16,10 @@ body{
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
+  cursor: default;
+}
+.projects-card-row.active{
+  cursor: grab;
 }
         .projects-card{
             display: inline-block;
@@ -25,7 +29,6 @@ body{
             background-color: #152541;
             border-radius: 7px;
             transition: 0.3s;
-            cursor: default;
             white-space: normal;
           }
           .projects-card:hover{

@@ -1,0 +1,67 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+.main_div{
+  width: 100%;
+  height: 500px;
+  display: inline-block;
+  position: relative;
+  background: #505050;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  cursor: default;
+}
+  .blogs-card-type-1{
+    display: inline-block;
+    width: 384px;
+    height:216px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%) scale(0.97);
+    background: #343434;
+    transition: 0.3s;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+
+  }
+  .blogs-card-type-1:hover{
+    transform: translate(0, -50%) scale(1);
+  }
+
+  #blogs-card-type-1-1{
+    background-image: url("../Media/blogs/thumbnails/love-blog-thumbnail.png");
+  }
+  #blogs-card-type-1-2{
+    background-image: url("../Media/blogs/thumbnails/tech-blog-thumbnail.png");
+  }
+  #blogs-card-type-1-3{
+    background-image: url("../Media/blogs/thumbnails/self-improve-blog-thumbnail.png");
+  }
+
+  .blogs-card-type-1-title{
+    font-size: 20px;
+    font-family: Segoe UI;
+    font-weight:400;
+    color: #ffffff;
+    width:100%;
+    text-align: center;
+    position: absolute;
+    top: 240px;
+    left:0;
+  }
+  .blogs-card-type-1-details{
+    display: block;
+    font-size: 14px;
+    font-family: SEGOE UI;
+    font-weight : lighter;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 275px;
+    left: 0;
+  }
