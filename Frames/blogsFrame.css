@@ -140,6 +140,8 @@
     height: 40px;
     fill: none;
     stroke: #FF6B4D;
+    background: transparent;
+    border:none;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 8px;
