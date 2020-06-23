@@ -71,6 +71,40 @@
     left: 0;
   }
 
+
+  .more-card{
+    width: 215px;
+    height: 180px;
+    top: 10px;
+    background: #252525;
+    color: #fff;
+    stroke: #fff;
+    stroke-width: 3px;
+  }
+  .more-card:hover{
+     transform: scale(1);
+     color: #C9C9C9;
+     stroke: #C9C9C9;
+     stroke-width:2px;
+  }
+  #more-card-txt{
+    font-size: 30px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    width:100%;
+    text-align: center;
+  }
+  #external-redirect-more-card{
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    width: 25px;
+    height: 25px;
+  }
+
   #right-arrow{
     display: block;
     width: 25px;

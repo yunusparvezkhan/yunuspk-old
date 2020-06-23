@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.808" height="26.221" viewBox="0 0 24.808 26.221">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="Component_68_1" data-name="Component 68 – 1" transform="translate(1.5 1.94)">
+    <path id="Path_114" data-name="Path 114" class="cls-1" d="M10103.287,7107.274h-13.827v18.9h18.9v-14.456" transform="translate(-10089.46 -7103.391)"/>
+    <path id="Path_115" data-name="Path 115" class="cls-2" d="M-.461,8.237,6.386-.191" transform="translate(14.783 0.361)"/>
+    <path id="Path_116" data-name="Path 116" class="cls-2" d="M.886.315,5.4-.281" transform="translate(15.981 0.281)"/>
+    <path id="Path_117" data-name="Path 117" class="cls-2" d="M1.253.742l.34,3.791" transform="translate(20.088 -0.699)"/>
+  </g>
+</svg>
