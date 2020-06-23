@@ -89,7 +89,7 @@
                 if(!isDown) return;    //stops the fuction from running //
                 e.preventDefault();
                 const x = e.pageX - slider.offsetLeft;
-                const walk = (x - startX) * 3;
+                const walk = (x - startX) * 5;
                 slider.scrollLeft = scrollLeft - walk;
                 // console.log(walk);
                 console.log(slider.scrollLeft);
