@@ -1,0 +1,66 @@
+@media (max-width:700px) {
+
+.container{
+  width:500px;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+
+
+
+
+  /* ////////////    Background Section 1    ///////////////// */
+  #bg-sec-1{
+    height: 1150px;
+  }
+  #bg-sec-1-elements{
+    width: 500px;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+  }
+
+
+
+    #heading-1{
+         font-size: 50px;
+         left: 20px;
+    }
+    #heading-2{
+         font-size: 70px;
+         left: 42%;
+         top: 180px;
+    }
+    #naming-1{
+      font-size: 80px;
+      top: 250px;
+      left: 40%;
+    }
+    #naming-2{
+      font-size: 55px;
+      top: 380px;
+      left: 30%;
+    }
+    #naming-3{
+      font-size: 80px;
+      top: 450px;
+      left: 35%;
+    }
+    #bg-sec-1-img{
+      width: 280px;
+      top: 180px;
+      right: -10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
