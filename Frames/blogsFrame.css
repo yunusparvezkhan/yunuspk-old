@@ -8,7 +8,7 @@
   height: 400px;
   display: inline-block;
   position: relative;
-  background: green;
+  background: transparent;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
@@ -80,17 +80,22 @@
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 8px;
-    position: absolute;
-    bottom: 20px;
+    position: fixed;
+    bottom: 5px;
     right: 35%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  #right-arrow:hover{
+      stroke:#FFB4A5;
   }
   #scroll-lbl{
     display: block;
     font-size: 25px;
     font-family: Segoe UI;
     font-weight: 700;
-    position: absolute;
-    bottom: 23px;
+    position: fixed;
+    bottom: 8px;
     text-align: center;
     width: 100%;
     color: #FF6B4D;
@@ -104,11 +109,15 @@
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 8px;
-    transform: rotateY(180deg);
-    position: absolute;
-    bottom: 20px;
+    position: fixed;
+    bottom: 5px;
     left: 35%;
+    transition: 0.5s;
+    cursor: pointer;
   }
+    #left-arrow:hover{
+      stroke:#FFB4A5;
+    }
 
 
   /* ScrollBar CSS */

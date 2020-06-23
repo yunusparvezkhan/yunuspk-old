@@ -117,8 +117,8 @@
         height: 400px;
         display: inline-block;
         position: absolute;
-        top: 50px;
-        background: green;
+        top: 130px;
+        background: none;
         overflow-x: scroll;
         overflow-y: hidden;
         white-space: nowrap;
