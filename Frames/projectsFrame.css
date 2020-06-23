@@ -9,10 +9,13 @@ body{
 }
 .projects-card-row{
   display: inline-block;
-  width: 2500px;
-  height: 350px;
-  position: absolute;
+  width: 100%;
+  height: 400px;
+  position: relative;
   background-color: none;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
         .projects-card{
             display: inline-block;
@@ -23,6 +26,7 @@ body{
             border-radius: 7px;
             transition: 0.3s;
             cursor: default;
+            white-space: normal;
           }
           .projects-card:hover{
             background: #1E4282;
