@@ -101,15 +101,16 @@
 
 
       #bg-sec-3{
-
+        background-image: url("../../Media/Theme-Elements/700/Theme-700-Element-2.svg");
+        height: 900px;
       }
 
       #bg-sec-3-heading{
-        top: 10px;
+        top: 50px;
         font-size: 60px;
       }
       #underline-1{
-        top: 80px;
+        top: 120px;
       }
 
       #blogs-frame{
@@ -117,7 +118,8 @@
         height: 400px;
         display: inline-block;
         position: absolute;
-        top: 130px;
+        top: 45%;
+        transform: translate(0,-50%);
         background: none;
         overflow-x: scroll;
         overflow-y: hidden;
