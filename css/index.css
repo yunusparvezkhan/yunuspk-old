@@ -344,6 +344,10 @@ body{
   background-color: none;
   border:none;
 }
+
+  #productsFrame{
+    display: none;
+  }
         #bg-sec-4-heading-1{
           display: block;
           font-size: 130px;
