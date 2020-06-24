@@ -8,7 +8,7 @@
   height: 600px;
   display: inline-block;
   position: relative;
-  background: GREEN;
+  background: transparent;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;

@@ -121,15 +121,69 @@
         top: 45%;
         transform: translate(0,-50%);
         background: none;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        white-space: nowrap;
         cursor: default;
         border:none;
       }
       .blogs-card-type-1{
         display: none;
       }
+
+
+      /* ////////////    Background Section 4    ///////////////// */
+
+
+      #bg-sec-4{
+        height: 1000px;
+      }
+
+      #bg-sec-4-heading-1{
+        font-size:90px;
+      }
+      #bg-sec-4-heading-2{
+        font-size:50px;
+        top: 40px;
+      }
+      .store-card-box{
+        display: none;
+      }
+
+      #productsFrame{
+        display: block;
+        width: 100%;
+        height: 600px;
+        position: absolute;
+        top: 150px;
+        border:none;
+      }
+
+      #store-btn{
+        bottom: 120px;
+      }
+
+
+
+
+
+
+
+
+
+      /* ////////////    Background Section 5    ///////////////// */
+
+
+      #bg-sec-5{
+        background-image:  url("../../Media/Backgrounds/YTStudio-right-align-2.png");
+      }
+
+
+        #YouTuber-icon{
+          right: 120px;
+          width: 150px;
+        }
+
+
+
+
 
 
 
