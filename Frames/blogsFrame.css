@@ -36,6 +36,12 @@
   .blogs-card-type-1:hover{
     transform: scale(1);
   }
+  .blogs-card-type-1.active{
+    cursor: grab;
+  }
+  .active{
+    cursor: grab;
+  }
 
   #blogs-card-type-1-1{
     background-image: url("../Media/blogs/thumbnails/love-blog-thumbnail.png");
