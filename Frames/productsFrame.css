@@ -87,6 +87,12 @@
    stroke: #C9C9C9;
    stroke-width:2px;
 }
+.blogs-card-type-1.active{
+  cursor: grab;
+}
+.active{
+  cursor: grab;
+}
 #more-card-txt{
   font-size: 30px;
   font-family: Segoe UI;
