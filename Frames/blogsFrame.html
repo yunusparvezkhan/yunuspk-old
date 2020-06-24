@@ -7,7 +7,7 @@
   </head>
   <body>
 
-      <div class="main_div">
+      <div class="main_div" id="main_div">
         <div class="blogs-card-type-1" id="blogs-card-type-1-1">
           <h3 class="blogs-card-type-1-title" >My life experience about LOVE</h3>
           <h4 class="blogs-card-type-1-details">26th Aprill 2020 | Psychology research</h4>
@@ -37,11 +37,11 @@
 
 
 
-                      <svg xmlns="http://www.w3.org/2000/svg" id="left-arrow" onclick="scrollLeft_arrow()" viewBox="0 0 31.483 48.273">
+                      <svg xmlns="http://www.w3.org/2000/svg" id="left-arrow" viewBox="0 0 31.483 48.273">
                         <path d="M8604.613,1867l-21.841,19.013L8604.613,1904" transform="translate(-8578.772 -1861.357)"/>
                       </svg>
                      <h4 id="scroll-lbl">Scroll</h4>
-                   <svg xmlns="http://www.w3.org/2000/svg" id="right-arrow" viewBox="0 0 31.483 48.273">
+                   <svg xmlns="http://www.w3.org/2000/svg" id="right-arrow" onclick="myfunc()" viewBox="0 0 31.483 48.273">
                      <path d="M8582.773,1867l21.841,19.013L8582.773,1904" transform="translate(-8577.131 -1861.357)"/>
                    </svg>
 
@@ -55,10 +55,13 @@
           <script type="text/javascript">
 
 
+
+
           const slider = document.querySelector('.main_div');
           let isDown = false;
           let startX;
           let scrollLeft;
+
 
           slider.addEventListener('mousedown', (e) => {
             isDown = true;
@@ -76,12 +79,28 @@
           });
           slider.addEventListener('mousemove', (e) => {
             if(!isDown) return;    //stops the fuction from running //
+            slider.classList.add('active');
             e.preventDefault();
             const x = e.pageX - slider.offsetLeft;
             const walk = (x - startX) * 2;
             slider.scrollLeft = scrollLeft - walk;
+
+
           });
 
+          // function myfunc() {
+          //
+          //
+          //   slider.addEventListener('mousedown', (e) => {
+          //     slider.scrollLeft = slider.scrollLeft + 250;
+          //     // console.log(scrollLeft);
+          //   });
+          //
+          //   slider.addEventListener('mousedown', (e) => {
+          //     slider.scrollLeft = slider.scrollLeft + 250;
+          //     // console.log(scrollLeft);
+          //   });
+          // }
 
 
           </script>
