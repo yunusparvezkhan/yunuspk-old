@@ -279,8 +279,64 @@
         top: -700px;
         left: 0;
       }
-
-
+      #sec-8point1-profile-box{
+        display: block;
+        width: 100%;
+        height: 330px;
+        background-color: #FF5757;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      #sec-8point1-profile-heading{
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #191919;
+        position: absolute;
+        top: 5px;
+        width: 100%;
+        text-align: center;
+      }
+      #sec-8point1-profile-picture{
+        display: block;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translate(-50%);
+        border-radius: 100px;
+        border: 5px solid #04DE78;
+      }
+      #sec-8point1-profile-naming{
+        font-size: 22px;
+        font-family: arial rounded mt;
+        font-weight: bold;
+        color: #fff;
+        position: absolute;
+        top: 210px;
+        width: 100%;
+        text-align:center;
+      }
+      #sec-8point1-profile-proffession{
+        font-size: 15px;
+        font-family: arial;
+        font-weight: 600;
+        color: #000;
+        position: absolute;
+        top: 240px;
+        width: 100%;
+        text-align: center;
+      }
+      #underline-4{
+        width: 270px;
+        height: auto;
+        position: absolute;
+        top: 260px;
+        left: 50%;
+        transform: translate(-50%);
+      }
 
 
 
