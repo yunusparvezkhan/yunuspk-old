@@ -705,6 +705,9 @@ body{
    left: 50%;
    transform:translate(-50%)
  }
+ #bg-sec-8point1{
+   display: none;
+ }
             #sec-8-profile-box{
               display: block;
               width: 320px;
