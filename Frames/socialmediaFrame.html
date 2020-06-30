@@ -63,7 +63,105 @@
         <p class="social-media-box-description" id="insta-description">Here I post my designs first on the web. Also I post my photos and personal stuffs.</p>
         <button type="button" class="box-btn">Follow</button>
       </div>
+
+
+
+      <div class="social_media_boxes" id="more-card">
+        <div id="more-card-txt">More
+
+          <svg xmlns="http://www.w3.org/2000/svg" id="external-redirect-more-card" viewBox="0 0 24.808 26.221">
+              <path d="M10103.287,7107.274h-13.827v18.9h18.9v-14.456" transform="translate(-10089.46 -7103.391)"/>
+              <path d="M-.461,8.237,6.386-.191" transform="translate(14.783 0.361)"/>
+              <path d="M.886.315,5.4-.281" transform="translate(15.981 0.281)"/>
+              <path d="M1.253.742l.34,3.791" transform="translate(20.088 -0.699)"/>
+          </svg>
+
+
+        </div>
+      </div>
+
+
+
     </div>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+
+
+
+
+    const slider = document.querySelector('.main_div');
+    const card1 = document.getElementById('box-1');
+    const card2 = document.getElementById('box-2');
+    const card3 = document.getElementById('box-3');
+    const morecard = document.getElementById('more-card');
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+
+    slider.addEventListener('mousedown', (e) => {
+      isDown = true;
+      slider.classList.add('active2');
+      card1.classList.add('active');
+      card2.classList.add('active');
+      card3.classList.add('active');
+      morecard.classList.add('active3');
+      startX = e.pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;
+    });
+    slider.addEventListener('mouseleave', () => {
+      isDown = false;
+      card1.classList.remove('active');
+      card2.classList.remove('active');
+      card3.classList.remove('active');
+      slider.classList.remove('active2');
+      morecard.classList.remove('active3');
+    });
+    slider.addEventListener('mouseup', () => {
+      isDown = false;
+      slider.classList.remove('active2');
+      card1.classList.remove('active');
+      card2.classList.remove('active');
+      card3.classList.remove('active');
+      morecard.classList.remove('active3');
+    });
+    slider.addEventListener('mousemove', (e) => {
+      if(!isDown) return;    //stops the fuction from running //
+      slider.classList.add('active2');
+      card1.classList.add('active');
+      card2.classList.add('active');
+      card3.classList.add('active');
+      morecard.classList.add('active3');
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 1;
+      slider.scrollLeft = scrollLeft - walk;
+
+
+    });
+
+    // function myfunc() {
+    //
+    //
+    //   slider.addEventListener('mousedown', (e) => {
+    //     slider.scrollLeft = slider.scrollLeft + 250;
+    //     // console.log(scrollLeft);
+    //   });
+    //
+    //   slider.addEventListener('mousedown', (e) => {
+    //     slider.scrollLeft = slider.scrollLeft + 250;
+    //     // console.log(scrollLeft);
+    //   });
+    // }
+
+
+    </script>
 
   </body>
 </html>
