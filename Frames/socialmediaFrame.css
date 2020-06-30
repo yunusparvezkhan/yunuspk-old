@@ -137,7 +137,7 @@
 
 
 
-#more-card{
+.more-card{
   width: 170px;
   height: 165px;
   left: 60px;
@@ -148,14 +148,14 @@
   transform: scale(1);
   transition: 0.3;
 }
-#more-card:hover{
+.more-card:hover{
    transform: scale(1.05);
    color: #C9C9C9;
    stroke: #C9C9C9;
    stroke-width:2px;
 }
 .active3{
-  transform: scale(1.5);
+  transform: scale(1.05);
 }
 #more-card-txt{
   font-size: 30px;
