@@ -708,6 +708,10 @@ body{
  #bg-sec-8point1{
    display: none;
  }
+
+ #socialmediaFrame{
+   display: none;
+ }
             #sec-8-profile-box{
               display: block;
               width: 320px;
