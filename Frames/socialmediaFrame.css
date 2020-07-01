@@ -115,6 +115,49 @@
 }
 
 
+#media-boxes-twitter-logo{
+  display: block;
+  width: 50px;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 05px;
+  fill: #f9f9f9;
+}
+#twitter-username{
+  top: 22px;
+  left: 45px;
+}
+#twitter-description{
+  text-align: left;
+  font-size: 12px;
+}
+
+
+
+
+
+#media-boxes-fb-logo{
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  fill: #f9f9f9;
+  stroke: none;
+  stroke-width: 3px;
+}
+#fb-username{
+  top: 22px;
+  left: 45px;
+}
+#fb-description{
+  text-align: left;
+}
+
+
+
 
 
 
