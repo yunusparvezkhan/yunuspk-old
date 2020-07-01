@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+}
+.box{
+  display: block;
+  width: 320px;
+  height: 250px;
+  background-color: pink;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+#github-mark{
+  display: block;
+  width: 35px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#github-heading{
+  font-size: 20px;
+  font-family: Segoe UI;
+  font-weight: 800;
+  position: absolute;
+  top: 3px;
+  left: 40px;
+  color:#332E30;
+}
+#github-art{
+  display: block;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
