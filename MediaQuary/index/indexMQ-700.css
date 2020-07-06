@@ -342,7 +342,7 @@
       #socialmediaFrame{
         display: block;
         width: 100%;
-        height: 500px;
+        height: 250px;
         position: relative;
         top: 40px;
         left: 50%;
@@ -366,6 +366,37 @@
         top: 25px;
         left: 10%;
         margin-left: 8px;
+      }
+
+      #v-important-widgets-heading{
+        display: block;
+        font-size: 20px;
+        font-family: Segoe UI;
+        font-weight: 700;
+        position: relative;
+        top: 40px;
+        left: 10%;
+      }
+      #v-important-widgets-underline{
+        width: 100px;
+        border: 3px solid #6767FF;
+        border-radius: 5px;
+        position: relative;
+        top: 45px;
+        left: 10%;
+        margin-left: 8px;
+      }
+
+      #githubFrame{
+        display: block;
+        width: 450px;
+        height:300px;
+        position: relative;
+        top: 100px;
+        left: 50%;
+        transform:translate(-50%);
+        border:none;
+        box-shadow: 0px 0px 30px #00000070;
       }
 
 
