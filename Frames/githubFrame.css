@@ -6,7 +6,7 @@
   display: block;
   width: 320px;
   height: 250px;
-  background-color: pink;
+  background-color: transparent;
   position: absolute;
   top: 30px;
   left: 50%;
@@ -36,4 +36,87 @@
   position: absolute;
   top: 10px;
   right: 5px;
+}
+#github-profile-name{
+  font-size: 18px;
+  font-family: Segoe UI;
+  font-weight: 600;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+}
+#github-profile-username{
+  font-size: 13px;
+  font-family: Segoe UI;
+  font-weight: 600;
+  position: absolute;
+  top: 90px;
+  left: 45px;
+}
+
+
+.count-cards{
+  display: block;
+  width: 100px;
+  height: 60px;
+  background: #6733FB;
+  position: absolute;
+  bottom: 40px;
+}
+.count-card-number{
+  font-size: 30px;
+  font-family: Segoe UI;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.count-card-lebel{
+  font-size: 13px;
+  font-family: Segoe UI;
+  font-weight: 400;
+  position: absolute;
+  bottom: 08px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.following-card{
+  left: 0;
+}
+.repo-card{
+  left: 50%;
+  transform: translate(-50%);
+}
+.followers-card{
+  right: 0;
+}
+
+
+
+
+#profile-btn{
+  display: block;
+  width: 70px;
+  height: 25px;
+  background: #171516;
+  border:none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 10px;
+  font-family: Segoe UI;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  transition: 0.3s;
+  cursor:pointer;
+}
+#profile-btn:hover{
+  background: #252525;
+  width: 75px;
+  letter-spacing: 0.5px;
 }
