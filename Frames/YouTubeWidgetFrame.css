@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding:0;
+}
+.box{
+  display: block;
+  width: 320px;
+  height: 260px;
+  background-color: transparent;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+#YouTubeLebel{
+  display: block;
+  width: 140px;
+  height: auto;
+  position: absolute;
+  top:35px;
+  left:0;
+  transform: translate(0, -50%);
+}
+#channel-icon{
+  display: block;
+  width: 70px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right:0;
+}
+#videoFrame{
+  width: 246px;
+  height: 138px;
+  border:none;
+  position: absolute;
+  top: 80px;
+  left:50%;
+  transform:translate(-50%);
+  border-radius: 10px;
+}
+#yt-subscribe-btn{
+  display: block;
+  width: 70px;
+  height:22px;
+  background-color: #CC0000;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%);
+  border:none;
+  color: #fff;
+  font-size: 10px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  cursor:pointer;
+  transition: 0.3s;
+}
