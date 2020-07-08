@@ -712,6 +712,12 @@ body{
  #socialmediaFrame{
    display: none;
  }
+ #githubFrame{
+   display: none;
+ }
+ #YouTubeFrame{
+   display: none;
+ }
             #sec-8-profile-box{
               display: block;
               width: 320px;
