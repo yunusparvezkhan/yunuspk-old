@@ -1,0 +1,136 @@
+*{
+  margin:0;
+  padding:0;
+}
+.box{
+  display: block;
+  width: 320px;
+  height: 250px;
+  background-color: transparent;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+#github-mark{
+  display: block;
+  width: 35px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#heading{
+  font-size: 20px;
+  font-family: Segoe UI;
+  font-weight: 800;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  color:#0B65C3;
+}
+#heading2{
+  font-size: 19px;
+  font-family: Segoe UI;
+  font-weight: 800;
+  position: absolute;
+  top:20px;
+  left: 108px;
+  color: #333;
+}
+#photo{
+  display: block;
+  width: 85px;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  border:3px solid #01DCC6;
+  border-radius: 50px;
+}
+#name{
+  font-size: 17px;
+  font-family: Segoe UI;
+  font-weight: 700;
+  position: absolute;
+  top: 55px;
+  left: 40px;
+}
+#text{
+  font-size: 10px;
+  font-family: Segoe UI;
+  font-weight:400;
+  position: absolute;
+  top: 90px;
+  left: 40px;
+  width: 200px;
+}
+
+
+.count-cards{
+  display: block;
+  width: 100px;
+  height: 60px;
+  background: #006097;
+  position: absolute;
+  bottom: 40px;
+}
+.count-card-number{
+  font-size: 30px;
+  font-family: Segoe UI;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  user-select: none;
+}
+.count-card-lebel{
+  font-size: 13px;
+  font-family: Segoe UI;
+  font-weight: 400;
+  position: absolute;
+  bottom: 08px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  user-select: none;
+}
+.connections-card{
+  left: 0;
+}
+.posts-card{
+  left: 50%;
+  transform: translate(-50%);
+}
+.followers-card{
+  right: 0;
+}
+
+
+
+
+#profile-btn{
+  display: block;
+  width: 70px;
+  height: 25px;
+  background: #009BA7;
+  border:none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 10px;
+  font-family: Segoe UI;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  transition: 0.3s;
+  cursor:pointer;
+}
+#profile-btn:hover{
+  background: #252525;
+  width: 75px;
+  letter-spacing: 0.5px;
+}
