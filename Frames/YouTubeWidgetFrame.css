@@ -5,7 +5,7 @@
 .box{
   display: block;
   width: 320px;
-  height: 260px;
+  height: 290px;
   background-color: transparent;
   position: absolute;
   top: 30px;
@@ -30,8 +30,8 @@
   right:0;
 }
 #videoFrame{
-  width: 246px;
-  height: 138px;
+  width: 295px;
+  height: 165px;
   border:none;
   position: absolute;
   top: 80px;
@@ -41,8 +41,8 @@
 }
 #yt-subscribe-btn{
   display: block;
-  width: 70px;
-  height:22px;
+  width: 100px;
+  height:32px;
   background-color: #CC0000;
   position: absolute;
   bottom: 0px;
@@ -50,7 +50,7 @@
   transform: translate(-50%);
   border:none;
   color: #fff;
-  font-size: 10px;
+  font-size: 12px;
   font-family: Segoe UI;
   font-weight: bold;
   cursor:pointer;
