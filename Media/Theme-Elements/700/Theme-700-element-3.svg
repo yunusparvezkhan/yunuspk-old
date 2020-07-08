@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1365" height="761" viewBox="0 0 1365 761">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Artboard_6);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: rgba(255,255,255,0);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6453d8"/>
+      <stop offset="1" stop-color="#c95aff"/>
+    </linearGradient>
+    <clipPath id="clip-Artboard_6">
+      <rect width="1365" height="761"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_6" data-name="Artboard – 6" class="cls-1">
+    <rect class="cls-6" width="1365" height="761"/>
+    <g id="Rectangle_80" data-name="Rectangle 80" class="cls-2" transform="translate(-2 -80)">
+      <rect class="cls-4" width="1398" height="349"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="1397" height="348"/>
+    </g>
+    <path id="Path_131" data-name="Path 131" class="cls-3" d="M0-162.4,1367,87.988v494.73s-141.462-79.312-281.72-70.086S786.368,593.777,664.5,597.469s-167.85-70.086-248.327-60.864-39.088,62.709-197.741,46.113S0,512.632,0,512.632Z" transform="translate(-2 162.492)"/>
+  </g>
+</svg>
