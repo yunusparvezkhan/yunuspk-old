@@ -718,6 +718,9 @@ body{
  #YouTubeFrame{
    display: none;
  }
+ #linkedinFrame{
+   display: none;
+ }
             #sec-8-profile-box{
               display: block;
               width: 320px;
