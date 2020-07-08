@@ -126,11 +126,8 @@
   bottom: 5px;
   right: 35%;
   transition: 0.5s;
-  cursor: pointer;
 }
-#right-arrow:hover{
-    stroke:#FFB4A5;
-}
+
 #scroll-lbl{
   display: block;
   font-size: 25px;
@@ -157,11 +154,8 @@
   bottom: 5px;
   left: 35%;
   transition: 0.5s;
-  cursor: pointer;
 }
-  #left-arrow:hover{
-    stroke:#FFB4A5;
-  }
+
 
 
 
