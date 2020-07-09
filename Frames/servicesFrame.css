@@ -31,8 +31,18 @@
   border-radius: 15px;
   box-shadow: 10px 10px 20px #00000050;
   white-space: normal;
+  transition: 0.3s;
+  cursor:pointer;
 }
-
+.cards:hover{
+  transform: scale(1.03);
+}
+.active{
+  cursor:grabbing;
+}
+.active2{
+  cursor:grabbing;
+}
 .card-1{
   left: 0;
   margin-left: 10px;
