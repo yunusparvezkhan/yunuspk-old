@@ -1218,6 +1218,9 @@ body{
             #projects-Frame{
               display: none;
             }
+            #projects-more-btn-2{
+                display: none;
+            }
 
                       .projects-card-row{
                           display: block;
