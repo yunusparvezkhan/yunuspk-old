@@ -1,5 +1,9 @@
 @media (max-width:700px) {
 
+  body{
+    height: 9545px;
+  }
+
 .container{
   width:500px;
   /* border-left: 2px solid #fff;
@@ -469,5 +473,76 @@
          background:transparent;
          border:none;
        }
+
+
+
+
+       /* ////////////    Background Section 9    ///////////////// */
+
+
+
+
+
+
+
+                #sec-9-subsec-1{
+                  display: none;
+                }
+                .sec-9-container{
+                  width: 100%;
+                }
+                #projects-Frame{
+                  display: block;
+                  width: 100%;
+                  height: 400px;
+                  background-color: transparent;
+                  position: absolute;
+                  top: 250px;
+                  border:none;
+                }
+                #projects-more-btn-2{
+                  display: block;
+                  width: 180px;
+                  height: 60px;
+                  background: transparent;
+                  border:2px solid #00FFA0;
+                  border-radius: 10px;
+                  position: absolute;
+                  top: 700px;
+                  left: 50%;
+                  transform: translate(-50%);
+                  cursor: pointer;
+                  transition: 0.5s;
+                  outline:none;
+                  color: #00FFA0;
+                  font-size: 18px;
+                  font-family: Segoe UI;
+                  font-weight: 400;
+                }
+                #projects-more-btn-2:hover{
+                  background: #00FFA020;
+                  letter-spacing: 2px;
+                }
+
+
+
+
+                  #sec-9-subsec-2{
+                    top: 900px;
+                  }
+
+
+
+                  #bg-sec-9{
+                    height: 1600px;
+                  }
+
+
+
+                  footer{
+                    top: 9345px;
+                  }
+
+
 
 }

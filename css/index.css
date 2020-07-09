@@ -1215,6 +1215,9 @@ body{
               left: 50%;
               transform: translate(-50%);
             }
+            #projects-Frame{
+              display: none;
+            }
 
                       .projects-card-row{
                           display: block;
