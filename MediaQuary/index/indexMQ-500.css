@@ -137,6 +137,58 @@
                       }
 
 
+    /* ////////////    Background Section 6    ///////////////// */
+
+
+                          #bg-sec-6{
+                          }
+
+                          #WebDev-heading{
+                            font-size: 45px;
+                            width: 60%;
+                            text-align: center;
+                            left: 50%;
+                            top: 100px;
+                            transform:translate(-50%);
+                          }
+                          #WebDev-underline{
+                            width: 250px;
+                            top: 210px;
+                            left: 50%;
+                          }
+                          #WebDev-elements{
+                            width: 400px;
+                            left: 50%;
+                            top: 290px;
+                          }
+                          #WebDev-portrait{
+                            left: 0;
+                            transform: translate(0);
+                            width: 170px;
+                            top: -300px;
+                          }
+                          #WebDev-box{
+                            right: 0px;
+                            top: -260px;
+                            width: 220px;
+                            height: 300px;
+                          }
+                          #WebDev-txt{
+                            font-size: 10px;
+                            line-height: 17px;
+                            text-align: justify;
+                          }
+
+                          #WebDev-more-btn{
+                            bottom: 15px;
+                            right: 50%;
+                            transform: translate(50%);
+                            font-size: 15px;
+                            width: 150px;
+                            height: 35px;
+                            border-radius: 20px;
+                          }
+
 
 
 
