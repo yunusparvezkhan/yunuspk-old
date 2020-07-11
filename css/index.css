@@ -676,6 +676,9 @@ body{
               color: #FCC7E3;
               text-shadow: -13px -4px 30px #00000099;
             }
+            #graphics-heading2{
+              display: none;
+            }
             #designer-heading{
               display: block;
               font-size: 115px;

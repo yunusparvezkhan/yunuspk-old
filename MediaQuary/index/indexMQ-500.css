@@ -142,13 +142,9 @@
     /* ////////////    Background Section 6    ///////////////// */
 
 
-                          #bg-sec-6{
-                          }
-
                           #WebDev-heading{
                             font-size: 45px;
                             width: 60%;
-                            text-align: center;
                             left: 50%;
                             top: 100px;
                             transform:translate(-50%);
@@ -190,8 +186,49 @@
                             width: 150px;
                             height: 35px;
                             border-radius: 20px;
-                            user-select: none;
                           }
+
+
+
+
+
+
+
+
+
+                                /* ////////////    Background Section 7    ///////////////// */
+
+
+                                #graphics-designer-portrait{
+                                  width: 100%;
+                                }
+                                #graphics-heading{
+                                  display: none;
+                                }
+                                #graphics-heading2{
+                                  display: block;
+                                  font-size: 60px;
+                                  width: 100%;
+                                  left: 80px;
+                                  top: 340px;
+                                  transform: rotate(45deg);
+                                  letter-spacing: 01px;
+                                  font-family: arial rounded mt;
+                                  font-weight: 400;
+                                  position: absolute;
+                                  color: #FCC7E3;
+                                  text-shadow: -13px -4px 30px #00000099;
+                                }
+                                #designer-heading{
+                                  left: -30px;
+                                  top: 410px;
+                                  font-size: 60px;
+                                  font-weight: 800;
+                                  transform:rotate(-80deg);
+                                }
+
+
+
 
 
 
