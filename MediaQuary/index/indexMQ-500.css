@@ -1,4 +1,7 @@
 @media (max-width:500px) {
+  body{
+    height: 9500px;
+  }
     .container{
       width: 400px;
       /* border-left: 2px solid #fff;
@@ -225,6 +228,16 @@
                                   font-size: 60px;
                                   font-weight: 800;
                                   transform:rotate(-80deg);
+                                }
+
+
+
+
+                                /* Footer */
+
+
+                                footer{
+                                  top: 9300px;
                                 }
 
 
