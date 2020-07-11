@@ -106,6 +106,8 @@
               #bg-sec-3-heading{
                 top: 80px;
                 font-size: 50px;
+                width: 100%;
+                text-align:center;
               }
               #underline-1{
                 top: 130px;
