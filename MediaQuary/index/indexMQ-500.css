@@ -100,6 +100,18 @@
 
 
 
+        /* ////////////    Background Section 3    ///////////////// */
+
+
+              #bg-sec-3-heading{
+                top: 80px;
+                font-size: 50px;
+              }
+              #underline-1{
+                top: 130px;
+                width: 150px;
+              }
+
 
 
 }
