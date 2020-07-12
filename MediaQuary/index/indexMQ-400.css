@@ -85,4 +85,32 @@
                       }
 
 
+
+
+    /* ////////////    Background Section 7    ///////////////// */
+
+
+
+                   #bg-sec-7{
+                     height: 530px;
+                   }
+                      #graphics-designer-portrait{
+                        width: 100%;
+                      }
+                      #graphics-heading{
+                        display: none;
+                      }
+                      #graphics-heading2{
+                        font-size: 55px;
+                        left: 60px;
+                        top: 260px;
+                      }
+                      #designer-heading{
+                        left: -20px;
+                        top: 330px;
+                        font-size: 50px;
+                        font-weight: 800;
+                        transform:rotate(-80deg);
+                      }
+
 }
