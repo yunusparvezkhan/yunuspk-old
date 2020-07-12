@@ -1,5 +1,9 @@
 @media (max-width:400px) {
 
+
+  body{
+    height: 9370px;
+  }
   .container{
     width: 350px;
     /* border-left:2px solid #fff;
@@ -150,6 +154,11 @@
                           height: 45px;
                           font-size: 15px;
                           top: 100px;
+                        }
+
+
+                        footer{
+                          top: 9170px;
                         }
 
 
