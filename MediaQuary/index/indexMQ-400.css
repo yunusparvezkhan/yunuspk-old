@@ -1,4 +1,4 @@
-@media (min-width:500px) {
+@media (max-width:500px) {
 
   .container{
     width: 350px;
@@ -112,5 +112,46 @@
                         font-weight: 800;
                         transform:rotate(-80deg);
                       }
+
+
+
+     /* ////////////    Background Section 9    ///////////////// */
+
+
+
+
+                      .sec-9-container{
+                        width: 100%;
+                      }
+
+                      #projects-more-btn-2{
+                        width: 200px;
+                        height: 45px;
+                        font-size: 15px;
+                      }
+
+
+                        #sec-9-subsec-2-subheading{
+                            font-size: 13px;
+                        }
+                        #sec-9-subsec-2-heading{
+                            font-size: 30px;
+                        }
+
+                        #sec-9-subsec-2-text{
+                          font-size: 15px;
+                          width: 75%;
+                          letter-spacing: 0.2px;
+                          line-height: 30px;
+                        }
+
+                        #get-in-touch-msg-btn{
+                          width: 200px;
+                          height: 45px;
+                          font-size: 15px;
+                          top: 100px;
+                        }
+
+
 
 }
