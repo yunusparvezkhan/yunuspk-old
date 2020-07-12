@@ -6,6 +6,7 @@
 body{
   background:#ffffff;
   scroll-behavior: smooth;
+  overflow-x: hidden;
   height:9590px;
 }
 
