@@ -1,9 +1,9 @@
-@media (max-width:500px) {
+@media (max-width:400px) {
 
   .container{
     width: 350px;
-    border-left:2px solid #fff;
-    border-right: 2px solid #fff;
+    /* border-left:2px solid #fff;
+    border-right: 2px solid #fff; */
   }
 
 
@@ -16,8 +16,8 @@
 
 #bg-sec-1-elements{
   width: 350px;
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
+  /* border-left: 2px solid #fff;
+  border-right: 2px solid #fff; */
 }
 
 #heading-1{
