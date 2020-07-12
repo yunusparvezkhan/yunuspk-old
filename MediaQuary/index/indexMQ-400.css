@@ -10,11 +10,46 @@
   /* ////////////    Background Section 1    ///////////////// */
 
 
+  #bg-sec-1{
+    height: 1075px;
+  }
 
 #bg-sec-1-elements{
   width: 350px;
   border-left: 2px solid #fff;
   border-right: 2px solid #fff;
 }
+
+#heading-1{
+     font-size: 40px;
+     left: 20px;
+}
+#heading-2{
+     font-size: 45px;
+     left: 42%;
+}
+#naming-1{
+  font-size: 55px;
+  letter-spacing: 1.5px;
+  left: 35%;
+}
+#naming-2{
+  font-size: 30px;
+  top: 350px;
+  left: 30%;
+}
+#naming-3{
+  font-size: 50px;
+  letter-spacing: 1.5px;
+  top: 400px;
+  left: 26%;
+}
+#bg-sec-1-img{
+  width: 230px;
+  top: 180px;
+  right: -20px;
+}
+
+
 
 }
