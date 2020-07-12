@@ -1,0 +1,20 @@
+@media (min-width:500px) {
+
+  .container{
+    width: 350px;
+    border-left:2px solid #fff;
+    border-right: 2px solid #fff;
+  }
+
+
+  /* ////////////    Background Section 1    ///////////////// */
+
+
+
+#bg-sec-1-elements{
+  width: 350px;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+}
