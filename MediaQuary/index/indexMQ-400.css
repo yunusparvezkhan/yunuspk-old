@@ -67,4 +67,22 @@
 
 
 
+    /* ////////////    Background Section 6    ///////////////// */
+
+
+
+                      #WebDev-portrait{
+                        left: 0;
+                        transform: translate(0);
+                        width: 150px;
+                        top: -300px;
+                      }
+                      #WebDev-box{
+                        right: 0px;
+                        top: -305px;
+                        width: 200px;
+                        height: 330px;
+                      }
+
+
 }
