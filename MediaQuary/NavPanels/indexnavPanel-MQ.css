@@ -1,0 +1,16 @@
+@media (max-width:900px) {
+    .index-nav-btns{
+      margin-left: 5px;
+      margin-right:5px;
+    }
+    #nav-2-logo{
+      width:180px;
+    }
+}
+
+
+@media (max-width:700px) {
+    #navigation-panel-2{
+      display: none;
+    }
+}

@@ -2,6 +2,12 @@
   margin:0;
   padding:0;
 }
+.nav-more-btn-hr{
+  display: none;
+}
+#nav-more-btn{
+  display: none;
+}
 #main-nav-panel{
   display: block;
   width: 100%;

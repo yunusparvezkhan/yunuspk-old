@@ -35,3 +35,26 @@
   top: 0;
   right: 100px;
 }
+
+
+.index-nav-btns{
+  display: inline-block;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 50%;
+  transform:translate(0,-50%);
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-family:arial;
+  font-weight: 400;
+  background: transparent;
+  border:none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.index-nav-btns:hover{
+   color:#444444;
+   transform: translate(0,-70%);
+}
