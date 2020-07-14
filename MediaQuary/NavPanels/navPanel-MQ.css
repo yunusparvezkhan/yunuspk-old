@@ -58,9 +58,19 @@
       #nav-more-btn-hr-3{
         bottom: 0;
       }
-      
+
       #m-nav-icon-bar{
         right: 30px;
         width: 100px;
+      }
+}
+
+
+@media (max-width:500px) {
+      #m-nav-notification-icon{
+        display: none;
+      }
+      #m-nav-msg-icon{
+        display: none;
       }
 }
