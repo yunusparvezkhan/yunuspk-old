@@ -35,9 +35,8 @@
         height: 20px;
         background:transparent;
         position: absolute;
-        top: 50%;
+        top: 15px;
         left: 20px;
-        transform: translate(0,-50%);
         cursor: pointer;
       }
       .nav-more-btn-hr{
