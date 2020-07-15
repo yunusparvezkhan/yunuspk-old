@@ -58,3 +58,48 @@
    color:#444444;
    transform: translate(0,-70%);
 }
+
+
+
+
+
+
+#nav-notification-icon{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(-50%,-50%);
+  cursor:pointer;
+  transition: 0s;
+}
+#nav-notification-icon:hover{
+    fill:#EC604A;
+}
+#nav-msg-icon{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  cursor:pointer;
+  transition: 0s;
+}
+#nav-msg-icon:hover{
+    stroke:#EC604A;
+    fill:#EC604A;
+}
+
+#nav-profile-pic-icon{
+  display: block;
+  width: auto;
+  height:35px;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translate(50%,-50%);
+  cursor:pointer;
+  transition: 0.3s;
+  border: 2px solid #FF5050;
+  border-radius: 50px;
+}
