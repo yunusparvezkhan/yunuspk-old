@@ -1,0 +1,112 @@
+*{
+  margin:0;
+  padding:0;
+}
+.nav-more-btn-hr{
+  display: none;
+}
+#nav-more-btn{
+  display: none;
+}
+#main-nav-panel{
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #EAE1E4;
+  opacity: 95%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#main-nav-logo{
+  display: block;
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform:translate(0,-50%);
+}
+#main-nav-btns-box{
+  display: block;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform:translate(-50%);
+  background: ;
+}
+.nav-btns{
+  display: inline-block;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 50%;
+  transform:translate(0,-50%);
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-family:arial;
+  font-weight: 400;
+  background: transparent;
+  border:none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.nav-btns:hover{
+   color:#444444;
+   transform: translate(0,-70%);
+}
+#m-nav-home-btn{
+  color: #EC604A;
+  font-weight: bold;
+}
+
+#m-nav-icon-bar{
+  display: block;
+  width: 120px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 70px;
+}
+
+#m-nav-notification-icon{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(-50%,-50%);
+  cursor:pointer;
+  transition: 0.3s;
+}
+#m-nav-notification-icon:hover{
+    fill:#EC604A;
+}
+#m-nav-msg-icon{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  cursor:pointer;
+  transition: 0.3s;
+}
+#m-nav-msg-icon:hover{
+    stroke:#EC604A;
+    fill:#EC604A;
+}
+
+#m-nav-profile-pic-icon{
+  display: block;
+  width: auto;
+  height:35px;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translate(50%,-50%);
+  cursor:pointer;
+  transition: 0.3s;
+  border: 2px solid #FF5050;
+  border-radius: 50px;
+}
