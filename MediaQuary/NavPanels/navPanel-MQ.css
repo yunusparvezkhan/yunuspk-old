@@ -34,7 +34,7 @@
         width: 25px;
         height: 20px;
         background:transparent;
-        position: absolute;
+        position: fixed;
         top: 15px;
         left: 20px;
         cursor: pointer;
