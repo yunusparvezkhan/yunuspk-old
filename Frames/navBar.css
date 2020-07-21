@@ -110,16 +110,3 @@
   border: 2px solid #FF5050;
   border-radius: 50px;
 }
-
-
-#menu-box{
-  display: block;
-  width: 250px;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: green;
-  transform: translate(-100%);
-  transition: 0.5s;
-}
