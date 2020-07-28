@@ -93,6 +93,7 @@
   left: 60px;
   transform: translate(0,-50%);
   cursor: pointer;
+  user-select: none;
 }
 .menu-nav-option-lbl-selected{
   font-weight: 600;
@@ -183,6 +184,7 @@
   left: 60px;
   transform: translate(0,-50%);
   cursor: pointer;
+  user-select: none;
 }
 
 #menu-other-option-1{
