@@ -45,7 +45,14 @@
   width:100%;
   height: 40px;
   position: relative;
-  top: 10px;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.menu-nav-options:hover{
+  background: #363636;
+}
+.menu-nav-option-selected{
   background: #1D1D1D;
 }
 .menu-nav-option-selected-hr{
@@ -56,6 +63,7 @@
   position: absolute;
   left: -18px;
   top: 18px;
+  cursor: pointer;
 }
 .menu-nav-options-icon{
   width: 25px;
@@ -64,14 +72,54 @@
   top: 50%;
   left: 30px;
   transform: translate(-50%,-50%);
+  cursor: pointer;
+}
+.menu-nav-options-icon-selected{
+  width: 30px;
 }
 .menu-nav-option-lbl{
   font-size: 18px;
   font-family: Segoe UI;
-  font-weight: 600;
-  color: #fff;
+  font-weight: 400;
+  color: #dedede;
   position: absolute;
   top: 50%;
   left: 60px;
   transform: translate(0,-50%);
+  cursor: pointer;
+}
+.menu-nav-option-lbl-selected{
+  font-weight: 600;
+  color: #fff;
+}
+
+
+
+
+#menu-nav-option-1{
+  top: 10px;
+}
+
+#menu-nav-option-2{
+    top: 15px;
+}
+
+#menu-nav-option-3{
+    top: 20px;
+}
+
+#menu-nav-option-4{
+    top: 25px;
+}
+
+#menu-nav-option-5{
+    top: 30px;
+}
+
+#menu-nav-option-6{
+    top: 35px;
+}
+
+#menu-nav-option-7{
+    top: 40px;
 }
