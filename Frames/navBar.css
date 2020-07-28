@@ -11,6 +11,7 @@
   outline: none;
   outline-color: transparent;
   -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
 }
 #main-nav-panel{
   display: block;
