@@ -1,15 +1,20 @@
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
 #menu-box{
-  display: none;
+  display: block;
   width: 300px;
+  min-height: 650px;
   height: 100vh;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   background: #212121;
-  transform: translate(-100%);
   transition: 0.5s;
-  border:none;
 }
+
 #menu-logo{
   display: block;
   width: 150px;
