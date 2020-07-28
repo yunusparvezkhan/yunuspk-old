@@ -18,6 +18,47 @@ body{
   border:none;
 }
 
+#menu-box{
+  display: none;
+  width: auto;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #212121;
+  transform: translate(-100%);
+  transition: 0.5s;
+}
+#menu-box-frame{
+  display: block;
+  width: 100%;
+  height: 100vh;
+  border:none;
+}
+#menu-close-cross{
+  display: block;
+  width: 18px;
+  height: auto;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  transform: translate(50%, -50%);
+  transition: 0.3s;
+  cursor: pointer;
+  user-select: none;
+}
+#menu-close-cross:hover{
+  width: 22px;
+}
+
+#screenBlocker{
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 #bg-sec-1{
   display: block;
   width: 100%;
