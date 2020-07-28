@@ -10,6 +10,7 @@
   user-select: none;
   outline: none;
   outline-color: transparent;
+  -webkit-touch-callout: none;
 }
 #main-nav-panel{
   display: block;
