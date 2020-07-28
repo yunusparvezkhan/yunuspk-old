@@ -2,6 +2,7 @@
 body{
   height: 350px;
   width: auto;
+  -webkit-tap-highlight-color: transparent;
 }
 *{
   margin:0;

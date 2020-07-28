@@ -3,6 +3,9 @@
     background: transparent;
 }
 
+*{
+  -webkit-tap-highlight-color: transparent;
+}
 #menu-box{
   display: block;
   width: 300px;
