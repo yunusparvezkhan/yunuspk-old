@@ -94,6 +94,7 @@
   transform: translate(0,-50%);
   cursor: pointer;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .menu-nav-option-lbl-selected{
   font-weight: 600;
@@ -185,6 +186,7 @@
   transform: translate(0,-50%);
   cursor: pointer;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #menu-other-option-1{
