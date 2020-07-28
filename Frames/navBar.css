@@ -9,6 +9,7 @@
   display: none;
   user-select: none;
   outline: none;
+  outline-color: transparent;
 }
 #main-nav-panel{
   display: block;
