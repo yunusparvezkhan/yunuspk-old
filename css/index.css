@@ -122,12 +122,12 @@ body{
               font-size: 100px;
               font-family:'Caveat brush', cursive;
               font-weight:bolder;
-              letter-spacing: 20px;
+              letter-spacing: 10px;
               font-style: italic;
               color: #3963B7;
               position: absolute;
               top: 400px;
-              left: 53%;
+              left: 50%;
               transform:translate(-50%);
             }
             #naming-3{
