@@ -731,11 +731,11 @@ body{
             #graphics-heading{
               display: block;
               font-size: 135px;
-              font-family: Arial Rounded MT;
+              font-family: 'Poppins', sans-serif;
               font-weight: 400;
               position: absolute;
               top: 480px;
-              left: 50px;
+              left: 80px;
               transform: rotateZ(5deg);
               color: #FCC7E3;
               text-shadow: -13px -4px 30px #00000099;
@@ -746,11 +746,11 @@ body{
             #designer-heading{
               display: block;
               font-size: 115px;
-              font-family: Informal Roman;
+              font-family: 'Shadows Into Light', cursive;
               font-weight: 400;
               position: absolute;
               top: 700px;
-              left: 150px;
+              left: 250px;
               transform: rotateZ(-2deg);
               color: #011EAE;
               text-shadow: -15px -6px 15px #00000099;

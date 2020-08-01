@@ -252,13 +252,15 @@
       }
       #graphics-heading{
         font-size: 40px;
+        left: 10px;
+        letter-spacing: 3px;
         top: 300px;
       }
       #designer-heading{
-        left: 30px;
+        left: 20px;
         top: 400px;
-        font-size: 50px;
-        font-weight: 800;
+        font-size: 60px;
+        font-weight: 600;
       }
 
 

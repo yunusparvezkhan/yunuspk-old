@@ -179,11 +179,12 @@
             #graphics-heading{
               font-size: 100px;
               transform: rotateZ(5deg);
-              left: 28px;
+              left: 50px;
               top: 400px;
             }
             #designer-heading{
-              left: 50px;
+              font-size: 95px;
+              left: 150px;
               top: 600px;
             }
 
