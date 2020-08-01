@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1089" height="593.5" viewBox="0 0 1089 593.5">
+  <defs>
+    <filter id="YPK" x="0" y="0" width="1089" height="584" filterUnits="userSpaceOnUse">
+      <feOffset dx="25" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="store" x="236.5" y="170.5" width="615" height="423" filterUnits="userSpaceOnUse">
+      <feOffset dx="25" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="14.5" result="blur-2"/>
+      <feFlood flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_26_1" data-name="Component 26 – 1" transform="translate(50 60)">
+    <g transform="matrix(1, 0, 0, 1, -50, -60)" filter="url(#YPK)">
+      <text id="YPK-2" data-name="YPK" transform="translate(50 386)" fill="#ffc400" font-size="359" font-family="Magneto-Bold, Magneto" font-weight="700"><tspan x="0" y="0">YPK</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -50, -60)" filter="url(#store)">
+      <text id="store-2" data-name="store" transform="translate(255 430)" fill="#515151" font-size="212" font-family="SegoeScript, Segoe Script" letter-spacing="0.027em"><tspan x="0" y="0">store</tspan></text>
+    </g>
+  </g>
+</svg>
