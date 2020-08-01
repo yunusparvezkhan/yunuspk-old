@@ -85,8 +85,8 @@ body{
             #heading-1{
                  display: block;
                  font-size: 70px;
-                 font-family: Mistral;
-                 font-weight: 400;
+                 font-family:  'Caveat', cursive;
+                 font-weight: 700;
                  color: #ffffff;
                  text-shadow: 10px 10px 12px #000000A5;
                  position: absolute;
@@ -96,8 +96,8 @@ body{
             }
             #heading-2{
                  display: block;
-                 font-size: 120px;
-                 font-family: Rage;
+                 font-size: 90px;
+                 font-family: 'Satisfy', cursive;
                  font-weight: 400;
                  color: #717171;
                  position: absolute;
