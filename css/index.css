@@ -333,7 +333,7 @@ body{
             }
             .blogs-card-type-1-title{
               font-size: 20px;
-              font-family: Segoe UI;
+              font-family: 'lato', sans-serif;
               font-weight:400;
               color: #ffffff;
               width:100%;
@@ -345,7 +345,7 @@ body{
             .blogs-card-type-1-details{
               display: block;
               font-size: 14px;
-              font-family: SEGOE UI;
+              font-family: 'lato', sans-serif;
               font-weight : lighter;
               width: 100%;
               text-align: center;
