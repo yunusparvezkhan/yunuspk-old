@@ -200,12 +200,12 @@ body{
                }
                #bg-sec-2-txt{
                  display: block;
-                 font-size: 20px;
+                 font-size: 18px;
                  font-family: 'Architects Daughter', cursive;
                  font-weight: lighter;
                  color:#dddddd;
                  text-align: left;
-                 letter-spacing: 1px;
+                 letter-spacing: 1.5px;
                  position: absolute;
                  top: 120px;
                  left: 10px;
