@@ -38,14 +38,15 @@
   left: 35%;
 }
 #naming-2{
-  font-size: 30px;
-  top: 350px;
+  font-size: 45px;
+  top: 330px;
   left: 30%;
+  letter-spacing: 5px;
 }
 #naming-3{
   font-size: 50px;
   letter-spacing: 1.5px;
-  top: 400px;
+  top: 390px;
   left: 26%;
 }
 #bg-sec-1-img{
