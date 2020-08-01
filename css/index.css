@@ -402,7 +402,7 @@ body{
   #productsFrame{
     display: none;
   }
-        #bg-sec-4-heading-1{
+        /* #bg-sec-4-heading-1{
           display: block;
           font-size: 130px;
           font-family: Magneto;
@@ -424,7 +424,7 @@ body{
           top: 60px;
           width: 100%;
           text-align: center;
-        }
+        } */
         #YPK-store-logo{
           display: block;
           width: 350px;

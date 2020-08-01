@@ -144,12 +144,9 @@
         height: 1000px;
       }
 
-      #bg-sec-4-heading-1{
-        font-size:90px;
-      }
-      #bg-sec-4-heading-2{
-        font-size:50px;
-        top: 40px;
+      #YPK-store-logo{
+        top: 25px;
+        width: 250px;
       }
       .store-card-box{
         display: none;
