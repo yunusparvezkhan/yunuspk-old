@@ -109,8 +109,8 @@ body{
               display: block;
               font-size: 130px;
               font-family: 'Bowlby One SC', cursive;
-              letter-spacing: 10px;
-              font-weight: 1000;
+              letter-spacing: 5px;
+              font-weight: 400;
               color: #EC604A;
               position: absolute;
               top: 235px;
@@ -119,21 +119,23 @@ body{
             }
             #naming-2{
               display: block;
-              font-size: 80px;
-              font-family:magneto;
-              font-weight:bold;
-              color: #EC604A;
+              font-size: 100px;
+              font-family:'Caveat brush', cursive;
+              font-weight:bolder;
+              letter-spacing: 20px;
+              font-style: italic;
+              color: #3963B7;
               position: absolute;
-              top: 420px;
-              left: 52%;
+              top: 400px;
+              left: 53%;
               transform:translate(-50%);
             }
             #naming-3{
               display: block;
               font-size: 100px;
               font-family: 'Bowlby One SC', cursive;
-              letter-spacing: 10px;
-              font-weight: 1000;
+              letter-spacing: 5px;
+              font-weight: 400;
               color: #EC604A;
               position: absolute;
               top: 520px;
