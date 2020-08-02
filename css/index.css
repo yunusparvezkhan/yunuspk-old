@@ -4,6 +4,15 @@
   transition: 0.5s;
   -webkit-tap-highlight-color: transparent;
 }
+#preloader{
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #222;
+}
 body{
   background:#ffffff;
   scroll-behavior: smooth;
