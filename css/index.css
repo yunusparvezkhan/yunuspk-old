@@ -13,7 +13,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  transition: 0.0s;
+  transition: 0.3s;
+  background-image: url('../Media/Preloader/spiner-transparent.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #preloader{
   display: block;
