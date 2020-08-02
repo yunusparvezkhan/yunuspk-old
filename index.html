@@ -38,9 +38,10 @@
 
 
     <script src="JavaScript/menuBar.js" charset="utf-8"></script>
+    <script src="JavaScript/preloader.js" charset="utf-8"></script>
       <link rel="stylesheet" href="/css/master.css">
   </head>
-  <body id="body">
+  <body id="body" onload="bodyLoaded()">
 
 
 
@@ -674,8 +675,13 @@
                    <img src="Media\icons\Menu-Icons\cross.png" id="menu-close-cross" onclick="closeMenu()"/>
                 </div>
 
-                <div id="preloader">
+                <div id="preloader-div">
+                  <!-- <iframe src="Media\Preloader\Spinner-1s-200px.html" id="preloader"></iframe> -->
+                  <!-- <img src="Media\Preloader\spiner-white.gif" autoplay id="preloader"> -->
+                  <img src="Media\Preloader\spiner-transparent.svg" autoplay id="preloader">
 
+
+                  </video>
                 </div>
 
   </body>
