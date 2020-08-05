@@ -1,0 +1,14 @@
+<svg id="Component_27_1" data-name="Component 27 – 1" xmlns="http://www.w3.org/2000/svg" width="104" height="104" viewBox="0 0 104 104">
+  <g id="Rectangle_19" data-name="Rectangle 19" fill="none" stroke="#707070" stroke-width="10">
+    <rect width="104" height="104" rx="30" stroke="none"/>
+    <rect x="5" y="5" width="94" height="94" rx="25" fill="none"/>
+  </g>
+  <g id="Ellipse_115" data-name="Ellipse 115" transform="translate(27 27)" fill="none" stroke="#707070" stroke-width="10">
+    <circle cx="25" cy="25" r="25" stroke="none"/>
+    <circle cx="25" cy="25" r="20" fill="none"/>
+  </g>
+  <g id="Ellipse_116" data-name="Ellipse 116" transform="translate(71 21)" fill="none" stroke="#707070" stroke-width="10">
+    <circle cx="6" cy="6" r="6" stroke="none"/>
+    <circle cx="6" cy="6" r="1" fill="none"/>
+  </g>
+</svg>
