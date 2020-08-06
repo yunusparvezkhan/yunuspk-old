@@ -7,7 +7,7 @@
     footer{
       display: block;
       width: 100%;
-      height: 200px;
+      height: 350px;
       background: #22273E;
       color: #fff;
       position: absolute;
@@ -15,6 +15,88 @@
       top: 0;
     }
 
+    #dev-heading{
+      font-size: 20px;
+      font-family: monospace;
+      font-weight:400;
+      color: #99F9C6;
+      text-transform: capitalize;
+      letter-spacing: 3px;
+      position: absolute;
+      top: 40px;
+      left:50%;
+      transform: translate(-50%);
+    }
+    #ypk-naming{
+      font-size: 45px;
+      font-family: SEGOE UI;
+      font-weight: bold;
+      color: #cbcbcb;
+      position: absolute;
+      top: 70px;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    #email{
+      font-size: 20px;
+      font-family: Segoe UI;
+      font-weight: 500;
+      color: #cbcbcb;
+      position: absolute;
+      top: 140px;
+      left: 50%;
+      transform:translate(-50%);
+      transition: 0.7s;
+      cursor: pointer;
+    }
+    #email:hover{
+      color: #99F9C6;
+    }
+
+
+            #social-media-box{
+              display: block;
+              width: 380px;
+              height: 29px;
+              position: absolute;
+              top: 200px;
+              left: 50%;
+              transform: translate(-50%);
+              border:2px solid black;
+            }
+
+              .social-media-btn{
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                transition: 0.7s;
+                cursor:pointer;
+                transform: translate(0,-50%)
+              }
+                  #twitter-btn{
+                    width: 48px;
+                    height: 48px;
+                    fill:#777;
+                    margin-right: 15px;
+                    margin-left:0;
+                  }
+                  #twitter-btn:hover{
+                    fill:#00acee;
+                  }
+
+                  #instagram-btn{
+                    width: 29px;
+                    height: 29px;
+                    left: 48px;
+                    fill:none;
+                    stroke:#777;
+                    stroke-width:10px;
+                    margin-left: 15px;
+                    margin-right: 20px;
+                  }
+                  #instagram-btn:hover{
+                    stroke:#3f729b;
+                  }
 
       #footer-btns-box{
         display: block;
