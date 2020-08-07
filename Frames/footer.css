@@ -47,11 +47,11 @@
       color: #cbcbcb;
       position: absolute;
       top: 140px;
+      left: 50%;
+      transform: translate(-50%);
       transition: 0.7s;
       cursor: pointer;
       transition: 0.5s;
-      width: 100%;
-      text-align: center;
     }
     #email:hover{
       color: #99F9C6;
