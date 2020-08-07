@@ -56,12 +56,55 @@
       margin-left: 3px;
       margin-right: 3px;
     }
+    #dev-heading{
+      font-size: 15px;
+    }
+    #ypk-naming{
+      font-size:40px
+    }
+    #email{
+      font-size:15px;
+    }
+    #social-media-box{
+      width: 330px;
+    }
+
+       #twitter-btn{
+         left: 0;
+       }
+       #instagram-btn{
+         left: 68px;
+       }
+       #github-btn{
+         left: 127px;
+       }
+       #youtube-btn{
+         left: 186px;
+       }
+       #linkedin-btn{
+         left: 245px;
+       }
+       #facebook-btn{
+         left: 304px;
+       }
 }
 
-@media (max-width:350px) {
+@media (max-width:360px) {
       .footer-btn{
-        font-size: 9px;
+        font-size: 8px;
         margin-left: 2px;
         margin-right: 2px;
+      }
+
+
+
+      #dev-heading{
+        font-size: 13px;
+      }
+      #ypk-naming{
+        font-size:35px
+      }
+      #email{
+        font-size:13px;
       }
 }
