@@ -1,43 +1,44 @@
 @media (max-width:1200px) {
     #footer-btns-box{
-      bottom: auto;
-      top: 20px;
+      bottom: 10px;
       width: 100%;
       text-align: center;
     }
     #footer-copyright{
-      left: 70px;
+      left: 20px;
+      bottom: 40px;
     }
     #footer-developer{
-      right: 70px;
+      right: 20px;
+      bottom: 40px;
     }
 }
 
 @media (max-width:900px) {
   #footer-copyright{
-    left: 30px;
+    left: 20px;
   }
   #footer-developer{
-    right: 30px;
+    right: 20px;
   }
 }
 
 
 @media (max-width:700px) {
   #footer-copyright{
-    bottom: 10px;
+    bottom: 40px;
     width: 100%;
     text-align: center;
     left: 0;
   }
   #footer-developer{
-    bottom: 30px;
+    bottom: 60px;
     width: 100%;
     text-align: center;
     right: 0;
   }
   #footer-btns-box{
-    top: 5px;
+    bottom: 10px;
   }
 }
 

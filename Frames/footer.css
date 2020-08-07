@@ -24,8 +24,9 @@
       letter-spacing: 3px;
       position: absolute;
       top: 40px;
-      left:50%;
-      transform: translate(-50%);
+      transition: 0.5s;
+      width: 100%;
+      text-align: center;
     }
     #ypk-naming{
       font-size: 45px;
@@ -34,8 +35,9 @@
       color: #cbcbcb;
       position: absolute;
       top: 70px;
-      left: 50%;
-      transform: translate(-50%);
+      transition: 0.5s;
+      width: 100%;
+      text-align: center;
     }
     #email{
       font-size: 20px;
@@ -44,10 +46,11 @@
       color: #cbcbcb;
       position: absolute;
       top: 140px;
-      left: 50%;
-      transform:translate(-50%);
       transition: 0.7s;
       cursor: pointer;
+      transition: 0.5s;
+      width: 100%;
+      text-align: center;
     }
     #email:hover{
       color: #99F9C6;
@@ -62,14 +65,15 @@
               top: 200px;
               left: 50%;
               transform: translate(-50%);
-              border:2px solid black;
+              /* border:2px solid black; */
+              transition: 0.5s;
             }
 
               .social-media-btn{
                 display: inline-block;
                 position: absolute;
                 top: 50%;
-                transition: 0.7s;
+                transition: 0.5s;
                 cursor:pointer;
                 transform: translate(0,-50%)
               }
@@ -77,8 +81,6 @@
                     width: 48px;
                     height: 48px;
                     fill:#777;
-                    margin-right: 15px;
-                    margin-left:0;
                   }
                   #twitter-btn:hover{
                     fill:#00acee;
@@ -87,15 +89,56 @@
                   #instagram-btn{
                     width: 29px;
                     height: 29px;
-                    left: 48px;
-                    fill:none;
-                    stroke:#777;
-                    stroke-width:10px;
-                    margin-left: 15px;
-                    margin-right: 20px;
+                    left: 78px;
+                    background-image: url('../Media/icons/Brand-Icons/Insta-logo-gray.svg');
+                    background-size: cover;
+                    transition: 0.7s;
                   }
                   #instagram-btn:hover{
-                    stroke:#3f729b;
+                    background-image: url('../Media/icons/Brand-Icons/Instagram.png');
+                    stroke:none;
+                  }
+
+                  #github-btn{
+                    width: 29px;
+                    height: auto;
+                    left: 147px;
+                    fill:#707070;
+                  }
+                  #github-btn:hover{
+                    fill:#ffffff;
+                  }
+
+                  #youtube-btn{
+                    width: 29px;
+                    height: auto;
+                    fill:#707070;
+                    left: 216px;
+                  }
+                  #youtube-btn:hover{
+                    fill:#ee3124;
+                  }
+
+                  #linkedin-btn{
+                    font-size: 33px;
+                    font-family: segoe ui;
+                    font-weight: 700;
+                    color:#777;
+                    left: 285px;
+                    transform: translate(0, -55%);
+                  }
+                  #linkedin-btn:hover{
+                    color: #1AABF1;
+                  }
+
+                  #facebook-btn{
+                    width: 29px;
+                    height: auto;
+                    left: 354px;
+                    fill:#777;
+                  }
+                  #facebook-btn:hover{
+                    fill: #5A8FFF;
                   }
 
       #footer-btns-box{
@@ -107,6 +150,7 @@
         bottom: 10px;
         left: 50%;
         transform: translate(-50%);
+        transition: 0.5s;
       }
       .footer-btn{
         display: inline-block;
@@ -142,6 +186,7 @@
         position: absolute;
         left: 20px;
         bottom: 10px;
+        transition: 0.5s;
       }
       #footer-developer{
         font-size: 13px;
@@ -150,4 +195,5 @@
         position: absolute;
         right: 20px;
         bottom: 10px;
+        transition: 0.5s;
       }
