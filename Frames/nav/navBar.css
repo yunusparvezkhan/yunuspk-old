@@ -27,6 +27,7 @@
   top: 50%;
   left: 30px;
   transform:translate(0,-50%);
+  cursor: pointer;
 }
 #main-nav-btns-box{
   display: block;
