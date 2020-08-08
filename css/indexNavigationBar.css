@@ -9,11 +9,11 @@
 }
 #nav-2-logo{
   display: block;
-  width: 200px;
+  width: 140px;
   height:auto;
   position: absolute;
   top: 50%;
-  left: 20px;
+  left: 50px;
   transform: translate(0,-50%);
 }
 

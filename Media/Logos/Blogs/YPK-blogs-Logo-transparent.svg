@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2000" height="2000" viewBox="0 0 2000 2000">
+  <defs>
+    <filter id="YPK" x="270.5" y="646.5" width="1484" height="734" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.5" result="blur"/>
+      <feFlood flood-opacity="0.22"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_2" x="454.149" y="695.742" width="1089.183" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_21" x="315.199" y="1190.969" width="1368.043" height="265.431" filterUnits="userSpaceOnUse">
+      <feOffset dx="20" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-3"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-YPK-Logo-White-transparent_2">
+      <rect width="2000" height="2000"/>
+    </clipPath>
+  </defs>
+  <g id="YPK-Logo-White-transparent_2" data-name="YPK-Logo-White-transparent – 2" clip-path="url(#clip-YPK-Logo-White-transparent_2)">
+    <rect width="2000" height="2000" fill="rgba(0,26,49,0)"/>
+    <g id="Component_2_1" data-name="Component 2 – 1" transform="translate(294 662)">
+      <g transform="matrix(1, 0, 0, 1, -294, -662)" filter="url(#YPK)">
+        <text id="YPK-2" data-name="YPK" transform="translate(294 1170)" fill="#ff745e" font-size="560" font-family="Magneto-Bold, Magneto" font-weight="700" letter-spacing="-0.001em"><tspan x="0" y="0">Y</tspan><tspan y="0" fill="#fff" font-size="491" letter-spacing="0.037em">P</tspan><tspan y="0" fill="#23c243">K</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -294, -662)" filter="url(#Line_2)">
+        <line id="Line_2-2" data-name="Line 2" x2="969.183" transform="translate(514.15 735.74)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="30"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -294, -662)" filter="url(#Path_21)">
+        <path id="Path_21-2" data-name="Path 21" d="M1674.242,1339s-351.591-102.031-669.7-102.031-537.708,85.192-576.883,101.515-33.733,45.964-25.844,60.117,46.982,18.886,80.934,7.215,219.626-117.77,521.793-136.868S1674.242,1339,1674.242,1339Z" transform="translate(-56 -21)" fill="#fff"/>
+      </g>
+      <path id="Path_18" data-name="Path 18" d="M223.427,51.075s33.953,1.645,41.731,19.906-3.044,43.793-3.044,43.793L196,311.929l286.771-260.9Z" transform="translate(858.555 72.209)" fill="#1a76ff"/>
+    </g>
+  </g>
+</svg>

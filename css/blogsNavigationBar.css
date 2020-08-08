@@ -1,0 +1,67 @@
+#header-landing{
+  display: block;
+  width:100%;
+  height:90px;
+  position: absolute;
+  top: 0;
+  left:0;
+  background-color:#09214A;
+}
+#nav-2-icon-bar{
+  top: 5px;
+}
+
+.index-nav-btns{
+  color: #eee;
+}
+.index-nav-btns:hover{
+   color:#999;
+}
+
+
+
+
+
+
+#nav-notification-icon{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(-50%,-50%);
+  cursor:pointer;
+  transition: 0.3s;
+  fill:#fff;
+}
+#nav-notification-icon:hover{
+    fill:#EC604A;
+}
+#nav-msg-icon{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  cursor:pointer;
+  transition: 0.3s;
+  fill:#fff;
+  stroke:#fff;
+}
+#nav-msg-icon:hover{
+    stroke:#EC604A;
+    fill:#EC604A;
+}
+
+#nav-profile-pic-icon{
+  display: block;
+  width: auto;
+  height:35px;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translate(50%,-50%);
+  cursor:pointer;
+  transition: 0.3s;
+  border: 2px solid #FF5050;
+  border-radius: 50px;
+}
