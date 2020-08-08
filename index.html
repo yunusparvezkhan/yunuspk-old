@@ -593,7 +593,18 @@
            <!-- Now the navigation panel which will apear at the top after loading -->
 
         <header id="navigation-panel-2">
-          <img src="Media\Logos\png\YPK-Logo-White-transparent.png" id="nav-2-logo"/>
+          <img src="Media\Logos\png\YPK-Logo-White-transparent.png" onclick="redirecttoHome()" id="nav-2-logo"/>
+
+                                <!-- Script for redirecting to the index from the logo ^^^ -->
+
+                                          <script type="text/javascript">
+                                            function redirecttoHome() {
+                                               parent.location.href = "index.html";
+                                            }
+                                          </script>
+
+
+
               <div id="nav-2-btns-box">
                 <button type="button" class="index-nav-btns" id="m-nav-home-btn">Home</button>
                 <a href="blogs.html"><button type="button" class="index-nav-btns" id="m-nav-blogs-btn">Blogs</button></a>

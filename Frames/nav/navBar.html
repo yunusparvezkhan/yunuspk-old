@@ -9,7 +9,17 @@
   </head>
   <body>
     <div id="main-nav-panel">
-      <img src="../../Media\Logos\png\YPK-Logo-White-transparent.png" id="main-nav-logo"/>
+      <img src="../../Media\Logos\png\YPK-Logo-White-transparent.png" onclick="redirecttoHome()" id="main-nav-logo"/>
+
+          <!-- Script for redirecting to the index from the logo ^^^ -->
+
+                    <script type="text/javascript">
+                      function redirecttoHome() {
+                         parent.location.href = "../../index.html";
+                      }
+                    </script>
+
+
 
           <div id="main-nav-btns-box">
             <a target="_parent" href="../../index.html"><button type="button" class="nav-btns" id="m-nav-home-btn">Home</button></a>

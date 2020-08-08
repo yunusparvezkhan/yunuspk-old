@@ -28,7 +28,19 @@
 
 
     <header id="header-landing">
-      <img src="Media\Logos\blogs\ypk-blogs-logo.png" id="nav-2-logo"/>
+      <img src="Media\Logos\blogs\ypk-blogs-logo.png" onclick="redirecttoHome()" id="nav-2-logo"/>
+
+
+                      <!-- Script for redirecting to the index from the logo ^^^ -->
+
+                                <script type="text/javascript">
+                                  function redirecttoHome() {
+                                     parent.location.href = "index.html";
+                                  }
+                                </script>
+
+
+
           <div id="nav-2-btns-box">
             <a href="index.html"><button type="button" class="index-nav-btns" id="m-nav-home-btn">Home</button></a>
             <a href="blogs.html"><button type="button" class="index-nav-btns" id="m-nav-blogs-btn">Blogs</button></a>
