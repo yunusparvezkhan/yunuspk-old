@@ -3,7 +3,7 @@
   padding:0;
 }
 body{
-  height: 200vh;
+background: #051126;
 }
 
 section{
@@ -85,4 +85,148 @@ section{
 }
 #scroll-down-icon:hover{
   stroke: #FF8D8D;
+}
+
+
+
+
+
+#section-2{
+  top: 0;
+  height: auto;
+  min-height: 900px;
+  background-color: #051126;
+}
+#sec-2-triangle{
+  width: 100%;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: #09214A;
+  stroke:none;
+}
+#sec-2-heading{
+  font-size: 25px;
+  font-family: segoe ui;
+  font-weight: 600;
+  color: #FF6D6D;
+  text-transform: uppercase;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%);
+}
+#underline{
+  width: 170px;
+  border: 2px solid #2BFE7F;
+  border-radius: 3px;
+  position: absolute;
+  top: 195px;
+  left: 50%;
+  transform: translate(-50%);
+}
+#form-box{
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+label{
+  font-size: 13px;
+  font-family: segoe ui;
+  font-weight: 600;
+  color: #36CB8E;
+  position: relative;
+}
+input{
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: #0C2146;
+  color: #fff;
+  font-size: 15px;
+  position: relative;
+  left: 0;
+  border:none;
+  border-radius: 5px;
+  outline-color: #fff;
+  box-shadow: 0 0 20px #FFFFFFBF;
+}
+#lbl-name{
+  top: 0px;
+  left: 5px;
+}
+#name{
+  top: 5px;
+}
+#lbl-email{
+  top: 15px;
+  left: 5px;
+}
+#email{
+  top:20px;
+}
+#lbl-msg{
+  top: 40px;
+  left: 05px;
+}
+#msg{
+  position: relative;
+  top: 45px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  height: 250px;
+  background: #0C2146;
+  color: #fff;
+  font-size: 15px;
+  border:none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #FFFFFFBF;
+  overflow:hidden;
+}
+#submit-btn{
+  width: 140px;
+  height: 45px;
+  position: relative;
+  top: -20px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 30px;
+  border:none;
+  background: #3EFFA5;
+  color: #000;
+  font-size: 20px;
+  font-family: segoe ui;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#submit-btn:hover{
+  background: #2CB474;
+  color: #fff;
+  font-weight: 400;
+}
+#span{
+  display: block;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top:50px;
+  border:none;
+  background:none;
+}
+#footerFrame{
+  display: block;
+  width: 100%;
+  height: 350px;
+  position: relative;
+  top: 0;
+  left: 0;
+  border: none;
+  background: #061836;
 }
