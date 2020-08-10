@@ -40,6 +40,12 @@ body{
   border:none;
 }
 
+#nav-more-btn{
+  display: none;
+}
+
+
+
 #menu-box{
   display: none;
   width: auto;
@@ -1485,8 +1491,6 @@ body{
 
 
 /* /////////////////////////////////////////////////////////////////////////////////////// */
-
-
 
 
 #footer-frame{
