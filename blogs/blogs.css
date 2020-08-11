@@ -1,0 +1,363 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+background: #051126;
+}
+
+section{
+  width: 100%;
+  position: relative;
+}
+#header-fixed{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border:none;
+}
+#section-1{
+  height: 100vh;
+  top: 0;
+  background: #09214A;
+  color: #fcfcfc;
+}
+#container-1{
+  width: 700px;
+  height: 250px;
+  background: none;
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+#heading{
+  font-size: 45px;
+  font-family: arial;
+  font-weight: 400;
+  color: #91FFC1;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+#description{
+  font-size: 20px;
+  font-family: segoe ui;
+  font-weight: 400;
+  width: 530px;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom:0px;
+  transform: translate(-50%);
+}
+
+#scroll-down{
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  bottom: 15vh;
+  transform: translate(-50%, 50%);
+}
+#scroll-down-lbl{
+  font-size: 25px;
+  font-family: arial;
+  font-weight: 600;
+  color: #FF8D8D;
+  width: 100%;
+  text-align: center;
+}
+#scroll-down-icon{
+  width: 50px;
+  height: 45px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  fill:none;
+  stroke: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#scroll-down-icon:hover{
+  stroke: #FF8D8D;
+}
+
+
+
+
+
+#section-2{
+  top: 0;
+  height: auto;
+  min-height: 900px;
+  background-color: #051126;
+}
+#sec-2-triangle{
+  width: 100%;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: #09214A;
+  stroke:none;
+}
+#sec-2-heading{
+  font-size: 25px;
+  font-family: segoe ui;
+  font-weight: 600;
+  color: #FF6D6D;
+  text-transform: uppercase;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%);
+}
+#underline{
+  width: 170px;
+  border: 2px solid #2BFE7F;
+  border-radius: 3px;
+  position: absolute;
+  top: 195px;
+  left: 50%;
+  transform: translate(-50%);
+}
+#form-box{
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+label{
+  font-size: 13px;
+  font-family: segoe ui;
+  font-weight: 600;
+  color: #36CB8E;
+  position: relative;
+}
+input{
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: #0C2146;
+  color: #fff;
+  font-size: 15px;
+  position: relative;
+  left: 0;
+  border:none;
+  border-radius: 5px;
+  outline-color: #fff;
+  box-shadow: 0 0 20px #FFFFFFBF;
+}
+#lbl-name{
+  top: 0px;
+  left: 5px;
+}
+#name{
+  top: 5px;
+}
+#lbl-email{
+  top: 15px;
+  left: 5px;
+}
+#email{
+  top:20px;
+}
+#lbl-msg{
+  top: 40px;
+  left: 05px;
+}
+#msg{
+  position: relative;
+  top: 45px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  height: 250px;
+  background: #0C2146;
+  color: #fff;
+  font-size: 15px;
+  border:none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #FFFFFFBF;
+  overflow:hidden;
+}
+#submit-btn{
+  width: 140px;
+  height: 45px;
+  position: relative;
+  top: -20px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 30px;
+  border:none;
+  background: #3EFFA5;
+  color: #000;
+  font-size: 20px;
+  font-family: segoe ui;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#submit-btn:hover{
+  background: #2CB474;
+  color: #fff;
+  font-weight: 400;
+}
+#span{
+  display: block;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top:50px;
+  border:none;
+  background:none;
+}
+#footerFrame{
+  display: block;
+  width: 100%;
+  height: 350px;
+  position: relative;
+  top: 0;
+  left: 0;
+  border: none;
+  background: #061836;
+}
+
+
+
+
+
+                      /* INDEX NAV */
+
+
+
+
+                      #header-landing{
+                        display: block;
+                        width:100%;
+                        height:90px;
+                        position: absolute;
+                        top: 0;
+                        left:0;
+                        background-color:#09214A;
+                      }
+                      #nav-2-icon-bar{
+                        top: 5px;
+                      }
+
+                      .index-nav-btns{
+                        color: #eee;
+                      }
+                      .index-nav-btns:hover{
+                         color:#999;
+                      }
+
+
+
+
+
+
+                      #nav-notification-icon{
+                        display: block;
+                        position: absolute;
+                        top: 50%;
+                        left: 0px;
+                        transform: translate(-50%,-50%);
+                        cursor:pointer;
+                        transition: 0.3s;
+                        fill:#fff;
+                      }
+                      #nav-notification-icon:hover{
+                          fill:#EC604A;
+                      }
+                      #nav-msg-icon{
+                        display: block;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        cursor:pointer;
+                        transition: 0.3s;
+                        fill:#fff;
+                        stroke:#fff;
+                      }
+                      #nav-msg-icon:hover{
+                          stroke:#EC604A;
+                          fill:#EC604A;
+                      }
+
+                      #nav-profile-pic-icon{
+                        display: block;
+                        width: auto;
+                        height:35px;
+                        position: absolute;
+                        top: 50%;
+                        right: 0px;
+                        transform: translate(50%,-50%);
+                        cursor:pointer;
+                        transition: 0.3s;
+                        border: 2px solid #FF5050;
+                        border-radius: 50px;
+                      }
+
+
+
+
+
+                                             /* Main Nav */
+
+
+
+                                             #main-nav-panel{
+                                               background-color: #030D1E;
+                                             }
+                                             .nav-btns{
+                                               color: #eee;
+                                             }
+                                             #m-nav-blogs-btn{
+                                               color: #EC604A;
+                                               font-weight: bold;
+                                             }
+
+                                             .nav-btns:hover{
+                                                color:#999;
+                                             }
+
+                                             #m-nav-notification-icon{
+                                               display: block;
+                                               position: absolute;
+                                               top: 50%;
+                                               left: 0px;
+                                               fill:#fff;
+                                               transform: translate(-50%,-50%);
+                                               cursor:pointer;
+                                               transition: 0.5s;
+                                             }
+                                             #m-nav-notification-icon:hover{
+                                                 fill:#EC604A;
+                                             }
+
+                                             #m-nav-msg-icon{
+                                               display: block;
+                                               position: absolute;
+                                               top: 50%;
+                                               left: 50%;
+                                               transform: translate(-50%,-50%);
+                                               cursor:pointer;
+                                               transition: 0.5s;
+                                               fill:#fff;
+                                               stroke:#fff;
+                                             }
+                                             #m-nav-msg-icon:hover{
+                                                 stroke:#EC604A;
+                                                 fill:#EC604A;
+                                             }
