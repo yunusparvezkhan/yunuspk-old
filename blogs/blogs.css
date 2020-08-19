@@ -33,6 +33,7 @@ section{
   top: 50vh;
   left: 50%;
   transform: translate(-50%, -60%);
+  transition: 0.5s;
 }
 #heading{
   font-size: 45px;
@@ -115,8 +116,8 @@ section{
   text-transform: uppercase;
   position: absolute;
   top: 150px;
-  left: 50%;
-  transform: translate(-50%);
+  width: 100%;
+  text-align: center;
 }
 #underline{
   width: 170px;
@@ -134,6 +135,7 @@ section{
   top: 230px;
   left: 50%;
   transform: translate(-50%);
+  transition: 0.5s;
 }
 
 label{
