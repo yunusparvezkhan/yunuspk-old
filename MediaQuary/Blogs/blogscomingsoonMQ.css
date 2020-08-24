@@ -4,7 +4,7 @@
   }
   #container-1{
     width: 500px;
-    height: 150px;
+    height: 200px;
   }
   #heading{
     font-size: 30px;
@@ -18,10 +18,10 @@
 @media (max-width:550px) {
   #container-1{
     width: 350px;
-    height: 180px;
+    height: 230px;
   }
   #heading{
-    font-size: 25px;
+    font-size: 22px;
   }
   #description{
     font-size: 13px;
