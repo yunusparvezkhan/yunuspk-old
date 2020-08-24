@@ -32,4 +32,7 @@
   #form-box{
     width: 300px;
   }
+  #scroll-down{
+    bottom: 20vh;
+  }
 }
