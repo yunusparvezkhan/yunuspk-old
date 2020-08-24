@@ -36,8 +36,8 @@ section{
   transition: 0.5s;
 }
 #heading{
-  font-size: 45px;
-  font-family: arial;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #91FFC1;
   width: 100%;
@@ -46,11 +46,13 @@ section{
 }
 #description{
   font-size: 20px;
-  font-family: segoe ui;
-  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   width: 530px;
   height: auto;
   text-align: center;
+  letter-spacing: 0.7px;
+  line-height: 25px;
   position: absolute;
   left: 50%;
   bottom:0px;
