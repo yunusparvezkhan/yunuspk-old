@@ -19,6 +19,7 @@
   #container-1{
     width: 350px;
     height: 240px;
+    top: 45vh;
   }
   #heading{
     font-size: 25px;
@@ -33,6 +34,6 @@
     width: 300px;
   }
   #scroll-down{
-    bottom: 20vh;
+    bottom: 25vh;
   }
 }
