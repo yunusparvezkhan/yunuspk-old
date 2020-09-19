@@ -1,0 +1,244 @@
+*{
+  margin:0;
+  padding:0;
+  -webkit-tap-highlight-color: transparent;
+}
+.nav-more-btn-hr{
+  display: none;
+}
+#nav-more-btn{
+  display: none;
+  -webkit-tap-highlight-color: transparent;
+}
+#main-nav-panel{
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #EAE1E4;
+  opacity: 95%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#main-nav-logo{
+  display: block;
+  width: 70px;
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform:translate(0,-50%);
+  cursor: pointer;
+}
+#main-nav-btns-box{
+  display: block;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform:translate(-50%);
+  background: ;
+}
+.nav-btns{
+  display: inline-block;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 50%;
+  transform:translate(0,-50%);
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-family:arial;
+  font-weight: 400;
+  background: transparent;
+  border:none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.nav-btns:hover{
+   color:#444444;
+   transform: translate(0,-70%);
+}
+
+#m-nav-icon-bar{
+  display: block;
+  width: 120px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 70px;
+}
+
+#m-nav-notification-icon{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(-50%,-50%);
+  cursor:pointer;
+  transition: 0.5s;
+  fill:#333;
+}
+#m-nav-notification-icon:hover{
+    fill:#EC604A;
+}
+#m-nav-msg-icon{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  cursor:pointer;
+  transition: 0.5s;
+  fill:#333;
+  stroke:#333;
+}
+#m-nav-msg-icon:hover{
+    stroke:#EC604A;
+    fill:#EC604A;
+}
+
+#m-nav-profile-pic-icon{
+  display: block;
+  width: auto;
+  height:35px;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translate(50%,-50%);
+  cursor:pointer;
+  transition: 0.3s;
+  border: 2px solid #FF5050;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+#main-nav-panel{
+  background-color: #030D1E;
+}
+.nav-btns{
+  color: #eee;
+}
+#m-nav-portfolio-btn{
+  color: #EC604A;
+  font-weight: bold;
+}
+
+.nav-btns:hover{
+   color:#999;
+}
+
+#m-nav-notification-icon{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  fill:#fff;
+  transform: translate(-50%,-50%);
+  cursor:pointer;
+  transition: 0.5s;
+}
+#m-nav-notification-icon:hover{
+    fill:#EC604A;
+}
+
+#m-nav-msg-icon{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  cursor:pointer;
+  transition: 0.5s;
+  fill:#fff;
+  stroke:#fff;
+}
+#m-nav-msg-icon:hover{
+    stroke:#EC604A;
+    fill:#EC604A;
+}
+
+
+
+
+
+@media (max-width:1100px) {
+     .nav-btns{
+       margin-left: 5px;
+       margin-right: 5px;
+     }
+}
+@media (max-width:1000px) {
+     .nav-btns{
+       margin-left: 3px;
+       margin-right: 3px;
+       font-size: 16px;
+     }
+}
+@media (max-width:850px) {
+      .nav-btns{
+        font-size: 15px;
+      }
+      #main-nav-btns-box{
+        left: 45%;
+      }
+}
+
+@media (max-width:800px) {
+
+      #main-nav-btns-box{
+        display: none;
+      }
+      #main-nav-logo{
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      #nav-more-btn{
+        display: block;
+        width: 25px;
+        height: 20px;
+        background:transparent;
+        position: fixed;
+        top: 15px;
+        left: 20px;
+        cursor: pointer;
+      }
+      .nav-more-btn-hr{
+        display: inline-block;
+        width: 100%;
+        border:2px solid #404040;
+        position: absolute;
+        left: 0;
+        border-radius: 5px;
+      }
+      #nav-more-btn-hr-1{
+        top: 0;
+      }
+      #nav-more-btn-hr-2{
+        top: 50%;
+        transform: translate(0, -50%);
+      }
+      #nav-more-btn-hr-3{
+        bottom: 0;
+      }
+
+      #m-nav-icon-bar{
+        right: 30px;
+        width: 100px;
+      }
+}
+
+
+@media (max-width:500px) {
+      #m-nav-notification-icon{
+        display: none;
+      }
+      #m-nav-msg-icon{
+        display: none;
+      }
+}
