@@ -220,7 +220,7 @@
       }
       #WebDev-underline{
         top: 70px;
-}
+      }
       #WebDev-portrait{
         left: 25%;
       }
@@ -378,6 +378,11 @@
               height: 50px;
             }
 
+
+
+#menu-box{
+  display: block;
+}
 
 
     }
