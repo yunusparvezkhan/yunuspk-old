@@ -1,0 +1,206 @@
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+*{
+  -webkit-tap-highlight-color: transparent;
+}
+#menu-box{
+  display: block;
+  width: 300px;
+  min-height: 650px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #212121;
+  transition: 0.5s;
+}
+
+#menu-logo{
+  display: block;
+  width: 150px;
+  height: auto;
+  position: relative;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+#menu-box-cross{
+  display: block;
+  width: 18px;
+  height: auto;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  transform: translate(50%, -50%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+#menu-box-cross:hover{
+  width: 22px;
+}
+#menu-nav-options-box{
+  display: block;
+  width: 100%;
+  height: 330px;
+  position: relative;
+  top: 50px;
+  background: #272727;
+}
+.menu-nav-options{
+  display: block;
+  width:100%;
+  height: 40px;
+  position: relative;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.menu-nav-options:hover{
+  background: #363636;
+}
+.menu-nav-option-selected{
+  background: #1D1D1D;
+}
+.menu-nav-option-selected-hr{
+  border:3px solid #25BE8F;
+  width:30px;
+  border-radius: 20px;
+  transform: rotate(90deg);
+  position: absolute;
+  left: -12px;
+  top: 10px;
+  cursor: pointer;
+}
+.menu-nav-options-icon{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+}
+.menu-nav-options-icon-selected{
+  width: 30px;
+}
+.menu-nav-option-lbl{
+  font-size: 18px;
+  font-family: Segoe UI;
+  font-weight: 400;
+  color: #dedede;
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  transform: translate(0,-50%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.menu-nav-option-lbl-selected{
+  font-weight: 600;
+  color: #fff;
+}
+
+
+
+
+#menu-nav-option-1{
+  top: 10px;
+}
+
+#menu-nav-option-2{
+    top: 15px;
+}
+
+#menu-nav-option-3{
+    top: 20px;
+}
+
+#menu-nav-option-4{
+    top: 25px;
+}
+
+#menu-nav-option-5{
+    top: 30px;
+}
+
+#menu-nav-option-6{
+    top: 35px;
+}
+
+#menu-nav-option-7{
+    top: 40px;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+
+
+
+#menu-other-options-box{
+    display: block;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 60px;
+    background: #333;
+}
+
+
+
+
+
+.menu-other-options{
+  display: block;
+  width:100%;
+  height: 40px;
+  position: relative;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.menu-other-options:hover{
+  background: #252525;
+}
+
+.menu-other-options-icon{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+}
+
+.menu-other-option-lbl{
+  font-size: 18px;
+  font-family: Segoe UI;
+  font-weight: 400;
+  color: #dedede;
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  transform: translate(0,-50%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#menu-other-option-1{
+  top: 10px;
+}
+#menu-other-option-2{
+  top: 15px;
+}
+#menu-other-option-3{
+  top: 20px;
+}
+#menu-other-option-4{
+  top: 25px;
+}

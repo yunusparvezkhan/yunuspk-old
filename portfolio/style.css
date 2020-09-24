@@ -2,8 +2,76 @@
    margin:0;
    padding :0;
 }
-#nav-frame{
-width: 100%;
-height: 50px;
-border: none;
-}
+  nav{
+    display: block;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #nav-frame{
+  width: 100%;
+  height: 50px;
+  border: none;
+  }
+
+  #menu-btn{
+    display: none;
+    width: 30px;
+    height: 24px;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .menu-btn-lines{
+    display: block;
+    width: 100%;
+    border:2px solid #eee;
+    outline: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  #menu-btn-line-1{
+   top: 0;
+  }
+  #menu-btn-line-2{
+   top: 50%;
+   transform: translate(-50%, -50%);
+  }
+  #menu-btn-line-3{
+   bottom: 0;
+  }
+
+
+
+  /* //////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+  #menu-Box{
+    display: block;
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    transform: translate(-100%);
+    transition: 0.5s;
+  }
+  #menu-box-frame{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    border:none;
+  }
