@@ -118,4 +118,38 @@ body{
     left: 0;
   }
 
-  
+  #sec-1-text-box{
+    display: block;
+    width: 600px;
+    height: 300px;
+    border:1px solid green;
+    position: absolute;
+    top: 50vh;
+    right: 120px;
+    transform: translate(0, -50%);
+  }
+
+  #sec-1-txt-1{
+    font-size: 18px;
+    color: #87FFDA;
+    font-family: monospace;
+    font-weight: normal;
+    position: relative;
+    top: 0;
+  }
+
+  #sec-1-txt-2{
+    font-size: 55px;
+    font-family: Segoe UI;
+    font-weight: 700;
+    position: relative;
+    color: #f1f1f1;
+  }
+
+  #sec-1-txt-3{
+    font-size: 50px;
+    font-family: serif;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 75%;
+  }
