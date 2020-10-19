@@ -153,3 +153,28 @@ body{
     color: #ffffff;
     opacity: 75%;
   }
+
+  #view-my-work-btn{
+    width: 155px;
+    height: 45px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-height:100%;
+    text-align: left;
+    padding-left: 15px;
+    position: absolute;
+  }
+
+  #view-my-work-btn-arrow{
+    width: 20px;
+    height: 18px;
+    fill:none;
+    stroke:#fff;
+    stroke-width:2px;
+    stroke-linecap: round;
+    position: absolute;
+    right: 15px;
+  }
