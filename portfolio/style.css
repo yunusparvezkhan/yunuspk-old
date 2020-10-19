@@ -122,7 +122,6 @@ body{
     display: block;
     width: 600px;
     height: 300px;
-    border:1px solid green;
     position: absolute;
     top: 50vh;
     right: 120px;
@@ -166,6 +165,9 @@ body{
     text-align: left;
     padding-left: 15px;
     position: absolute;
+    left: 25%;
+    bottom: 60px;
+    transform:translate(-50%);
   }
 
   #view-my-work-btn-arrow{
