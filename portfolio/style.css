@@ -160,17 +160,20 @@ body{
     background-color: transparent;
     color: #fff;
     font-size: 15px;
+    font-weight: 400;
     font-family: sans-serif;
     text-height:100%;
     text-align: left;
-    padding-left: 15px;
+    padding-left: 18px;
     position: absolute;
     left: 25%;
     bottom: 60px;
     transform:translate(-50%);
+    transition: 0.3s;
+    cursor: pointer;
   }
 
-  #view-my-work-btn-arrow{
+  #view-my-work-btn svg{
     width: 20px;
     height: 18px;
     fill:none;
@@ -178,5 +181,17 @@ body{
     stroke-width:2px;
     stroke-linecap: round;
     position: absolute;
-    right: 15px;
+    right: 18px;
+    transition: 0.3s;
+  }
+
+  #view-my-work-btn:hover{
+    background-color: #fff;
+    color: #404040;
+    font-weight:600;
+    padding-left: 12px;
+  }
+  #view-my-work-btn:hover svg{
+    stroke: #404040;
+    transform: rotate(90deg) scale(1.2);
   }
