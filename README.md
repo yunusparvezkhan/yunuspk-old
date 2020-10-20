@@ -24,7 +24,7 @@
 
 
 ## Now a important thing
-#### I know guys that the site is super slow, and the reason is I used svg to create the facinating sections where I could just use css to color those. That's a mistake or problem which I will solve later on. 🙏🙏🙏
+#### I know guys that the site is super slow, and the reason is I used svg to create the fascinating sections where I could just use css to color those. That's a mistake or problem which I will solve later on. 🙏🙏🙏
 
 
 ## One more important thing is :-
