@@ -112,11 +112,21 @@ body{
     background: #101010;
   }
 
-  #sec-1-portait{
-    display: block;
+  #sec-1-container{
+    width: 1250px;
+    height: 100vh;
     position: absolute;
-    top: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  #sec-1-portait{
+    position: absolute;
+    width: 350px;
+    top: 50%;
     left: 0;
+    transform: translate(0, -50%)
   }
 
   #sec-1-text-box{
@@ -124,9 +134,9 @@ body{
     width: 600px;
     height: 300px;
     position: absolute;
-    top: 50vh;
-    right: 120px;
-    transform: translate(0, -50%);
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
   }
 
   #sec-1-txt-1{
