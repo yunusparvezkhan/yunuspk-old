@@ -223,7 +223,7 @@ body{
           background-color: #101010;
         }
 
-        #heading-box{
+        .heading-box{
           width: auto;
           height: auto;
           position: absolute;
@@ -232,7 +232,7 @@ body{
           transform: translate(-50%);
         }
 
-        #sec-2-heading{
+        .sec-heading{
           font-size: 40px;
           font-family: sans-serif;
           font-weight: normal;
@@ -240,14 +240,16 @@ body{
           text-transform: uppercase;
           text-align: center;
           letter-spacing: 5px;
+          position: relative;
+          top: 0;
         }
 
-        #sec-2-heading-underline{
+        .sec-heading-underline{
           border: 3px solid #5AFFBD;
-          width: 100px;
+          width: 65%;
           border-radius: 5px;
           position: relative;
-          top: -10px;
+          top: 5px;
           left: 50%;
           transform: translate(-50%);
         }
