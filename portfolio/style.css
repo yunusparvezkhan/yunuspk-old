@@ -313,7 +313,6 @@ body{
                 position: relative;
                 top:0;
                 background-color: #101010;
-                border: 1px solid #fff;
               }
 
               #sec-3-container{
@@ -323,14 +322,12 @@ body{
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%,-50%);
-                border:1px solid #fff;
               }
 
               .sec-3-container-cards{
                 width: 185px;  /* 185 because the icons it gonna contain is 185px wide */
                 height: 100%;  /* 100% means 250px in this case */
                 position: absolute;
-                border: 1px solid green;
               }
               .sec-3-container-card-1{
                 left: 0px;
