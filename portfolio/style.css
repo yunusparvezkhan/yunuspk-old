@@ -317,11 +317,30 @@ body{
               }
 
               #sec-3-container{
-                width: 900px;
+                width: 875px;
                 height: 250px;
                 position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%,-50%);
                 border:1px solid #fff;
+              }
+
+              .sec-3-container-cards{
+                width: 185px;  /* 185 because the icons it gonna contain is 185px wide */
+                height: 100%;  /* 100% means 250px in this case */
+                position: absolute;
+                border: 1px solid green;
+              }
+              .sec-3-container-card-1{
+                left: 0px;
+              }
+              .sec-3-container-card-2{
+                left: 230px;
+              }
+              .sec-3-container-card-3{
+                left: 460px;
+              }
+              .sec-3-container-card-4{
+                left: 690px;
               }
