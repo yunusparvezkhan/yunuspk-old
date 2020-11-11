@@ -315,3 +315,13 @@ body{
                 background-color: #101010;
                 border: 1px solid #fff;
               }
+
+              #sec-3-container{
+                width: 900px;
+                height: 250px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                border:1px solid #fff;
+              }
