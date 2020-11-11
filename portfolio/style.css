@@ -354,3 +354,15 @@ body{
                 left: 50%;
                 transform: translate(-50%);
               }
+
+              .sec-3-container-cards-title{
+                font-size: 20px;
+                font-weight: 500;
+                font-family: segoe ui;
+                position: absolute;
+                top: 200px;
+                color: #fff;
+                width: 100%;
+                text-align: center;
+                letter-spacing: 1px;
+              }
