@@ -1,0 +1,11 @@
+<svg id="Component_56_1" data-name="Component 56 – 1" xmlns="http://www.w3.org/2000/svg" width="185" height="161" viewBox="0 0 185 161">
+  <path id="Polygon_16" data-name="Polygon 16" d="M138.75,0,185,80.5,138.75,161H46.25L0,80.5,46.25,0Z" fill="#4ec8db"/>
+  <g id="Group_10" data-name="Group 10" transform="translate(-407 -1181)">
+    <path id="Path_144" data-name="Path 144" d="M-6295.156-2916.883h-53.154" transform="translate(6803.826 4199.206)" fill="none" stroke="#fff" stroke-width="10"/>
+    <path id="Path_145" data-name="Path 145" d="M-6273.25-2948.237h-68.741v44.762" transform="translate(6809.542 4182.292)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+    <g id="Rectangle_84" data-name="Rectangle 84" transform="translate(515 1241)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+      <rect width="28" height="48" stroke="none"/>
+      <rect x="2.5" y="2.5" width="23" height="43" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg id="Component_54_1" data-name="Component 54 – 1" xmlns="http://www.w3.org/2000/svg" width="185" height="161" viewBox="0 0 185 161">
+  <path id="Polygon_19" data-name="Polygon 19" d="M138.75,0,185,80.5,138.75,161H46.25L0,80.5,46.25,0Z" fill="#4ec8db"/>
+  <path id="Path_155" data-name="Path 155" d="M0,2.9S17.084-14,37.084-14,72.421,2.9,72.421,2.9" transform="translate(56.1 77.81)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="Path_156" data-name="Path 156" d="M0-13.833s17.484,17.3,37.484,17.3,34.937-17.3,34.937-17.3" transform="translate(56.1 94.542)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <g id="Ellipse_122" data-name="Ellipse 122" transform="translate(77 64)" fill="none" stroke="#fff" stroke-width="3">
+    <circle cx="16.5" cy="16.5" r="16.5" stroke="none"/>
+    <circle cx="16.5" cy="16.5" r="15" fill="none"/>
+  </g>
+  <g id="Group_7" data-name="Group 7" transform="translate(87.788 76.027)">
+    <path id="Path_152" data-name="Path 152" d="M-6234.518-3086.629s-3.165-3.562-5.336,0,5.336,9.8,5.336,9.8" transform="translate(6240.248 3088.212)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_153" data-name="Path 153" d="M-6239.448-3086.629s3.167-3.562,5.337,0-5.337,9.8-5.337,9.8" transform="translate(6245.241 3088.212)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+  </g>
+  <path id="Path_157" data-name="Path 157" d="M-.331.483A14.134,14.134,0,0,1,4.285,2.945a13.648,13.648,0,0,1,3.026,4.2" transform="translate(95.863 69.744)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+  <g id="Ellipse_123" data-name="Ellipse 123" transform="translate(101 80)" fill="#fff" stroke="#fff" stroke-width="3">
+    <circle cx="2" cy="2" r="2" stroke="none"/>
+    <circle cx="2" cy="2" r="0.5" fill="none"/>
+  </g>
+  <line id="Line_67" data-name="Line 67" y1="10.863" x2="6.035" transform="translate(118.865 52.918)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+  <line id="Line_68" data-name="Line 68" y1="12.07" transform="translate(92.311 45.055)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+  <line id="Line_69" data-name="Line 69" x1="6.035" y1="10.863" transform="translate(59.721 52.918)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+</svg>
