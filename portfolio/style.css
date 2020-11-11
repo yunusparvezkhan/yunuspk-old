@@ -344,3 +344,13 @@ body{
               .sec-3-container-card-4{
                 left: 690px;
               }
+
+
+              .sec-3-container-cards-img{
+                width: auto;
+                height: auto;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%);
+              }
